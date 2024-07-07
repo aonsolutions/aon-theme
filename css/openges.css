@@ -8,8 +8,8 @@
 	--aonDocumental: var(--opengesGreen);
 	--aonAccounting: var(--opengesGreen);
 	
-	--aonTopMenuSpecial : var(--opengesGreen);
-	--aonTopMenuAvailable : var(--opengesGreen);
+	--aonTopMenuSpecial : black; /* var(--opengesGreen); */
+	--aonTopMenuAvailable : black; /*var(--opengesGreen);*/
 	
 	--aonHeaderBackgroundAvailable:var(--opengesGreen);
 }
@@ -102,6 +102,9 @@
 
 .aonMagicButton,
 .aonMagicButton:hover {
+	color: black;
+	border-color: var(--opengesGreen);
+	background-color: var(--opengesGreen);
 }
 
 .aonLink:after {

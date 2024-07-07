@@ -16,19 +16,17 @@
 
 .aonHeader {
 	overflow: hidden;
-	background-color: var(--opengesGreen);
+	background-color: black;
 }
 
 #aonHeaderCompanyName,
 .aonHeader .material-icons {
-	color: white;
 }
 
 .aonNewLogo {
     width: 139px;
-    height: 65px;
+    height: 48px;
     cursor: pointer;
-    margin-top: 25px;
     padding: 0 0 0 68px;
     background-size: contain;
     background-position: center;
@@ -38,13 +36,13 @@
 
 .aonMenuLeftop {
 	--aonTopMenuAvailable: white;
-	background-color: var(--opengesGreen);
+	background-color: black;
 	
 }
 
 .aonMenuTopnav,
 .aonMenuSidenav {
-	background-color: var(--aonWhite, white);
+	background-color: var(--opengesGreen);
 }
 
 
@@ -104,9 +102,6 @@
 
 .aonMagicButton,
 .aonMagicButton:hover {
-	color: white;
-	border-color: var(--opengesGreen);
-	background-color: var(--opengesGreen);
 }
 
 .aonLink:after {

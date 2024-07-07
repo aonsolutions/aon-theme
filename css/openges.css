@@ -11,7 +11,8 @@
 	--aonTopMenuSpecial : black; /* var(--opengesGreen); */
 	--aonTopMenuAvailable : black; /*var(--opengesGreen);*/
 	
-	--aonHeaderBackgroundAvailable:var(--opengesGreen);
+	--aonHeaderBackgroundAvailable:black;
+
 }
 
 .aonHeader {

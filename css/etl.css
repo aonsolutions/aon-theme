@@ -10,6 +10,8 @@
 	--aonTopMenuAvailable : var(--etlRed);
 	
 	--aonHeaderBackgroundAvailable:var(--etlRed);
+
+	--aonHeaderBackgroundColor : var(--etlRed);
 }
 
 .aonHeader {

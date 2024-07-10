@@ -136,4 +136,220 @@
 	content: 'comunicacion@etl.es';	
 }
 
+.aonHeaderNote,
+.aonMenuLeftopNote {
+	background-color: var(--etlRed);
+}
+
+.aonHeaderFiscal,
+.aonMenuLeftopFiscal{
+	background-color: var(--etlRed);
+}
+
+.aonHeaderPayroll,
+.aonMenuLeftopPayroll {
+	background-color: var(--etlRed);
+}
+
+.aonHeaderInvoice,
+.aonMenuLeftopInvoice {
+	background-color: var(--etlRed);
+}
+
+.aonHeaderDocumental,
+.onMenuLeftopDocumental {
+	background-color: var(--etlRed);
+}
+
+.aonHeaderAccounting,
+.aonMenuLeftopAccounting {
+	background-color: var(--etlRed);
+}
+
+.aonHeaderTimecontrol,
+.aonMenuLeftopTimecontrol {
+	background-color: var(--etlRed);
+}
+
+.aonHeaderMessenger,
+.aonMenuLeftopMessenger {
+	background-color: var(--etlRed);
+}
+
+.aonHeaderOffice,
+.aonMenuLeftopOffice {
+  background-color: var(--etlRed);
+}
+
+.aonHeaderGarage,
+.aonMenuLeftopGarage {
+  background-color: var(--etlRed);
+}
+
+.aonHeaderAcademy,
+.aonMenuLeftopAcademy {
+  background-color: var(--etlRed);
+}
+
+.aonHeaderComerce,
+.aonMenuLeftopComerce {
+  background-color: var(--etlRed);
+}
+
+.aonHeaderComercialMenu,
+.aonMenuLeftopComercialMenu {
+  background-color: var(--etlRed);
+}
+
+.aonHeaderManagementMenu,
+.aonMenuLeftopManagementMenu {
+  background-color: var(--etlRed);
+}
+
+.aonHeaderTreasuryMenu,
+.aonMenuLeftopTreasuryMenu {
+  background-color: var(--etlRed);
+}
+
+.aonHeaderWarehouseMenu,
+.aonMenuLeftopWarehouseMenu {
+  background-color: var(--etlRed);
+}
+
+.aonHeaderGroupwareMenu,
+.aonMenuLeftopGroupwareMenu {
+  background-color: var(--etlRed);
+}
+
+.aonHeaderAccountingMenu,
+.aonMenuLeftopAccountingMenu {
+  background-color: var(--etlRed);
+}
+
+.aonHeaderFiscalMenu,
+.aonMenuLeftopFiscalMenu {
+  background-color: var(--etlRed);
+}
+.aonHeaderPayrollMenu,
+.aonMenuLeftopPayrollMenu {
+  background-color: var(--etlRed);
+}
+.aonHeaderMarketingMenu,
+.aonMenuLeftopMarketingMenu {
+  background-color: var(--etlRed);
+}
+
+.aonHeaderNote .material-icons,
+.aonHeaderFiscal .material-icons,
+.aonHeaderPayroll .material-icons,
+.aonHeaderInvoice  .material-icons,
+.aonHeaderMessenger .material-icons,
+.aonHeaderAccounting .material-icons,
+.aonHeaderDocumental .material-icons,
+.aonHeaderTimecontrol .material-icons,
+.aonHeaderOffice .material-icons,
+.aonHeaderGarage .material-icons,
+.aonHeaderAcademy .material-icons,
+.aonHeaderComerce .material-icons,
+.aonHeaderComercialMenu .material-icons,
+.aonHeaderManagementMenu .material-icons,
+.aonHeaderTreasuryMenu .material-icons,
+.aonHeaderWarehouseMenu .material-icons,
+.aonHeaderGroupwareMenu .material-icons,
+.aonHeaderAccountingMenu .material-icons,
+.aonHeaderFiscalMenu .material-icons,
+.aonHeaderPayrollMenu .material-icons,
+.aonHeaderMarketingMenu .material-icons {
+	color: var(--aonWhite);
+}
+
+.aonMenuLeftopNote .material-symbols-outlined,
+.aonMenuLeftopFiscal .material-symbols-outlined,
+.aonMenuLeftopPayroll .material-symbols-outlined,
+.aonMenuLeftopInvoice  .material-symbols-outlined,
+.aonMenuLeftopMessenger .material-symbols-outlined,
+.aonMenuLeftopAccounting .material-symbols-outlined,
+.aonMenuLeftopDocumental .material-symbols-outlined,
+.aonMenuLeftopTimecontrol .material-symbols-outlined,
+.aonMenuLeftopOffice .material-symbols-outlined,
+.aonMenuLeftopGarage .material-symbols-outlined,
+.aonMenuLeftopAcademy .material-symbols-outlined,
+.aonMenuLeftopComerce .material-symbols-outlined,
+.aonMenuLeftopFiscalMenu .material-symbols-outlined,
+.aonMenuLeftopPayrollMenu .material-symbols-outlined,
+.aonMenuLeftopTreasuryMenu .material-symbols-outlined,
+.aonMenuLeftopMarketingMenu .material-symbols-outlined,
+.aonMenuLeftopComercialMenu .material-symbols-outlined,
+.aonMenuLeftopWarehouseMenu .material-symbols-outlined,
+.aonMenuLeftopGroupwareMenu .material-symbols-outlined,
+.aonMenuLeftopManagementMenu .material-symbols-outlined,
+.aonMenuLeftopAccountingMenu .material-symbols-outlined {
+	color: var(--aonWhite);
+}
+
+.aonHeaderNote #aonHeaderCompanyName,
+.aonHeaderFiscal #aonHeaderCompanyName,
+.aonHeaderPayroll #aonHeaderCompanyName,
+.aonHeaderInvoice  #aonHeaderCompanyName,
+.aonHeaderMessenger #aonHeaderCompanyName,
+.aonHeaderAccounting #aonHeaderCompanyName,
+.aonHeaderDocumental #aonHeaderCompanyName,
+.aonHeaderTimecontrol #aonHeaderCompanyName,
+.aonHeaderOffice #aonHeaderCompanyName,
+.aonHeaderGarage #aonHeaderCompanyName,
+.aonHeaderAcademy #aonHeaderCompanyName,
+.aonHeaderComerce #aonHeaderCompanyName,
+.aonHeaderComercialMenu #aonHeaderCompanyName,
+.aonHeaderManagementMenu #aonHeaderCompanyName,
+.aonHeaderTreasuryMenu #aonHeaderCompanyName,
+.aonHeaderWarehouseMenu #aonHeaderCompanyName,
+.aonHeaderGroupwareMenu #aonHeaderCompanyName,
+.aonHeaderAccountingMenu #aonHeaderCompanyName,
+.aonHeaderFiscalMenu #aonHeaderCompanyName,
+.aonHeaderPayrollMenu #aonHeaderCompanyName,
+.aonHeaderMarketingMenu #aonHeaderCompanyName {
+	color: var(--aonWhite);
+}
+
+#home:hover,
+#invoice:hover,
+#documental:hover,
+#accounting:hover,
+#fiscal:hover,
+#payroll:hover,
+#timecontrol:hover,
+#note:hover,
+#messenger:hover,
+#office:hover,
+#garage:hover,
+#academy:hover,
+#comerce:hover,
+#comercialMenu:hover,
+#managementMenu:hover,
+#treasuryMenu:hover,
+#warehouseMenu:hover,
+#groupwareMenu:hover,
+#accountingMenu:hover,
+#fiscalMenu:hover,
+#payrollMenu:hover,
+#marketingMenu:hover{
+  background-color: gray;
+  transition: background-color 0.2s;
+}
+
+#aonHeaderCompanyList:hover,
+#aonHeaderHelp:hover,
+#aonHeaderConfig:hover,
+#aonHeaderNotification:hover,
+#aonHeaderUser:hover{
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 100px;
+  transition: background-color 0.2s;
+}
+
+#applications:hover{
+  background-color:rgba(0,0,0,0.1);
+  transition: background-color 0.2s;
+}
+
 

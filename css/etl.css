@@ -333,7 +333,7 @@
 #fiscalMenu:hover,
 #payrollMenu:hover,
 #marketingMenu:hover{
-  background-color: gray;
+  background-color: blue;
   transition: background-color 0.2s;
 }
 

@@ -136,6 +136,16 @@
 	content: 'comunicacion@etl.es';	
 }
 
+.aonHeaderHome,
+.aonMenuLeftopHome{
+	background-color: var(--etlRed);
+}
+
+.aonHeaderApplications,
+.aonMenuLeftopApplications{
+	background-color: var(--etlRed);
+}
+
 .aonHeaderNote,
 .aonMenuLeftopNote {
 	background-color: var(--etlRed);
@@ -259,7 +269,9 @@
 .aonHeaderAccountingMenu .material-icons,
 .aonHeaderFiscalMenu .material-icons,
 .aonHeaderPayrollMenu .material-icons,
-.aonHeaderMarketingMenu .material-icons {
+.aonHeaderMarketingMenu .material-icons,
+.aonHeaderHome .material-icons,
+.aonHeaderApplications .material-icons {
 	color: var(--aonWhite);
 }
 
@@ -283,7 +295,9 @@
 .aonMenuLeftopWarehouseMenu .material-symbols-outlined,
 .aonMenuLeftopGroupwareMenu .material-symbols-outlined,
 .aonMenuLeftopManagementMenu .material-symbols-outlined,
-.aonMenuLeftopAccountingMenu .material-symbols-outlined {
+.aonMenuLeftopAccountingMenu .material-symbols-outlined,
+.aonMenuLeftopHome .material-symbols-outlined,
+.aonMenuLeftopApplications .material-symbols-outlined {
 	color: var(--aonWhite);
 }
 
@@ -307,7 +321,9 @@
 .aonHeaderAccountingMenu #aonHeaderCompanyName,
 .aonHeaderFiscalMenu #aonHeaderCompanyName,
 .aonHeaderPayrollMenu #aonHeaderCompanyName,
-.aonHeaderMarketingMenu #aonHeaderCompanyName {
+.aonHeaderMarketingMenu #aonHeaderCompanyName,
+.aonHeaderHome  #aonHeaderCompanyName,
+.aonHeaderApplications  #aonHeaderCompanyName{
 	color: var(--aonWhite);
 }
 

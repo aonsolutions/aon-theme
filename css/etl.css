@@ -136,6 +136,11 @@
 	content: 'comunicacion@etl.es';	
 }
 
+.aonHeaderStart,
+.aonMenuLeftopStart{
+	background-color: var(--etlRed);
+}
+
 .aonHeaderHome,
 .aonMenuLeftopHome{
 	background-color: var(--etlRed);
@@ -271,7 +276,8 @@
 .aonHeaderPayrollMenu .material-icons,
 .aonHeaderMarketingMenu .material-icons,
 .aonHeaderHome .material-icons,
-.aonHeaderApplications .material-icons {
+.aonHeaderApplications .material-icons,
+.aonHeaderStart .material-icons{
 	color: var(--aonWhite);
 }
 
@@ -297,7 +303,8 @@
 .aonMenuLeftopManagementMenu .material-symbols-outlined,
 .aonMenuLeftopAccountingMenu .material-symbols-outlined,
 .aonMenuLeftopHome .material-symbols-outlined,
-.aonMenuLeftopApplications .material-symbols-outlined {
+.aonMenuLeftopApplications .material-symbols-outlined,
+.aonMenuLeftopStart .material-symbols-outlined{
 	color: var(--aonWhite);
 }
 

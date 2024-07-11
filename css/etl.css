@@ -330,7 +330,8 @@
 .aonHeaderPayrollMenu #aonHeaderCompanyName,
 .aonHeaderMarketingMenu #aonHeaderCompanyName,
 .aonHeaderHome  #aonHeaderCompanyName,
-.aonHeaderApplications  #aonHeaderCompanyName{
+.aonHeaderApplications  #aonHeaderCompanyName,
+.aonHeaderStart #aonHeaderCompanyName{
 	color: var(--aonWhite);
 }
 

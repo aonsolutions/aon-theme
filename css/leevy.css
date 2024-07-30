@@ -355,3 +355,7 @@
 #aonContactIcon4 {
 	display: none;
 }
+
+.aonLoginLogo::before {
+  display:none;
+}

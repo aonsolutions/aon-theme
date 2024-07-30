@@ -81,6 +81,7 @@
 }
 
 .aonToolbar2{
+	padding-top: 64px;
 	border-bottom: none;
 }
 
@@ -114,6 +115,7 @@
 }
 
 .aonTrademark:after {
+	color: var(--aonWhite);
 	content: 'es una marca registrada de ETL GLOBAL.';
 }
 
@@ -381,4 +383,43 @@
   transition: background-color 0.2s;
 }
 
+.aonLogin {
+	background-image: url(../image/etl-background.jpg);
+}
 
+.aonLogin::after{
+	content: '';
+	height: 210px;
+	transform: scale(1,-1);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNlZGVkZWQiPjxwYXRoIGQ9Ik0xMjgwIDE0MFYwSDBsMTI4MCAxNDB6Ii8+PC9nPjwvc3ZnPg==);
+}
+
+.aonLoginFormContent{
+	border:none;
+}
+
+.aonLoginButton,
+.aonLoginFormContent .aonInputBoxLabel > input {
+	border: none;
+	border-radius: 0px;
+}
+
+#aonLoginUserTitle,
+#aonLoginPasswordTitle {
+	display:none;
+}
+
+.aonLoginSubTitle::after {
+	color: var(--aonWhite);
+	content: 'Accede a tu cuenta de ETL';
+}
+.aonDividerSpan {
+	color: var(--aonWhite);
+	background-color: transparent;
+}
+
+.aonDividerButtons{
+	border:none;	
+}

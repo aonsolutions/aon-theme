@@ -82,7 +82,6 @@
 
 .aonToolbar2{
 	border-bottom: none;
-	background-color: var(--aonWhite);
 }
 
 .aonLoginLogo{
@@ -93,10 +92,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("https://etl.es/wp-content/uploads/2018/12/etlglobalnew.png");
-}
-
-.aonLoginLogo::before {
-  display:none;
 }
 
 #aonLoginLanguageSpanToolbar{

@@ -301,3 +301,10 @@
 	color: var(--aonWhite);
 	background-color: transparent;
 }
+.aonDividerButtons {
+	border-bottom:none;
+}
+
+#aonLoginLanguageSpanToolbar{
+	color: var(--leevyColor);
+}

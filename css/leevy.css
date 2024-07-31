@@ -234,6 +234,16 @@
   background-image: url("../image/leevy-yellow-logo.svg");
 }
 
+.aonLoginLogo::before {
+	content: '';
+	width: 32px;
+	height: 32px;
+	display: block;
+	border-radius:32px;
+	background-size: contain;
+	background-image: url("../image/leevyIcon.svg");
+}
+
 .aonLoginTitle {
 	color: var(--leevyColor);
 }

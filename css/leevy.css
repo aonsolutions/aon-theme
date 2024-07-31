@@ -56,7 +56,7 @@
 .aonHeader,
 .aonMenuLeftop {
 	overflow: hidden;
-	background-color: red;
+	background-color: var(--leevyBackground);
 }
 
 .aonMenuLeftop :hover{
@@ -73,7 +73,7 @@
 }
 
 .aonCardTitle {
-	color:var(--leevyBackground);
+	color: var(--leevyBackground);
 }
 
 .aonCard {

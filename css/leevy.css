@@ -215,6 +215,36 @@
 	background-image: url("../image/leevy-yellow-logo.svg");  
 }
 
+.aonLink {
+	color: var(--leevyColor) !important;
+}
+
+.aonToolbar2{
+  border-bottom: none;
+  background-color: var(--leevyBackground);
+}
+
+.aonLoginLogo{
+  width: 139px;
+  height: 65px;
+  cursor: pointer;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../image/leevy-yellow-logo.svg");
+}
+
+.aonLoginTitle {
+	color: var(--leevyColor);
+}
+
+.aonMagicButton,
+.aonMagicButton:hover {
+	color: black;
+	border-color: var(--leevyColor);
+	background-color: var(--leevyColor);
+}
+
 .aonLink:after {
 	content: 'leevy';
 }

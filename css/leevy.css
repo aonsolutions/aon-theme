@@ -220,7 +220,6 @@
 }
 
 .aonToolbar2{
-  border-bottom: none;
   background-color: var(--leevyBackground);
 }
 
@@ -289,3 +288,16 @@
 	display: none;
 }
 
+#aonLogin {
+	background-image: url('https://leevy.es/_astro/bg-hero.ab734f4c.webp');
+}
+
+#aonLoginUserTitle,
+#aonLoginPasswordTitle {
+	display:none;
+}
+
+.aonDividerSpan{
+	color: var(--aonWhite);
+	background-color: transparent;
+}

@@ -137,6 +137,33 @@
 }
 
 
+.aonHeaderNote #aonHeaderCompanyName,
+.aonHeaderFiscal #aonHeaderCompanyName,
+.aonHeaderPayroll #aonHeaderCompanyName,
+.aonHeaderInvoice  #aonHeaderCompanyName,
+.aonHeaderMessenger #aonHeaderCompanyName,
+.aonHeaderAccounting #aonHeaderCompanyName,
+.aonHeaderDocumental #aonHeaderCompanyName,
+.aonHeaderTimecontrol #aonHeaderCompanyName,
+.aonHeaderOffice #aonHeaderCompanyName,
+.aonHeaderGarage #aonHeaderCompanyName,
+.aonHeaderAcademy #aonHeaderCompanyName,
+.aonHeaderComerce #aonHeaderCompanyName,
+.aonHeaderComercialMenu #aonHeaderCompanyName,
+.aonHeaderManagementMenu #aonHeaderCompanyName,
+.aonHeaderTreasuryMenu #aonHeaderCompanyName,
+.aonHeaderWarehouseMenu #aonHeaderCompanyName,
+.aonHeaderGroupwareMenu #aonHeaderCompanyName,
+.aonHeaderAccountingMenu #aonHeaderCompanyName,
+.aonHeaderFiscalMenu #aonHeaderCompanyName,
+.aonHeaderPayrollMenu #aonHeaderCompanyName,
+.aonHeaderMarketingMenu #aonHeaderCompanyName,
+.aonHeaderHome  #aonHeaderCompanyName,
+.aonHeaderApplications  #aonHeaderCompanyName,
+.aonHeaderStart #aonHeaderCompanyName {
+	color: var(--leevyColor);
+}
+
 /* #aonMenuListAppImgTop-home {
 	color: var(--leevyBackground);
 } */

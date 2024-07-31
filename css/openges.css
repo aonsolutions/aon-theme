@@ -85,6 +85,20 @@
   background-color: black;
 }
 
+
+.aonLogin {
+	background-position: left;	
+	background-repeat: no-repeat;
+	background-image: url("https://my.openges.es/img/OgLoginBackground2.jpg");
+}
+
+.aonLoginFormContent {
+	width: 60%;
+}
+
+.aonLogin #divForm {
+	padding-left: 50%;	
+}
 .aonLoginLogo{
   width: 139px;
   height: 65px;
@@ -138,3 +152,6 @@
 	content: 'comunicacion@etl.es';	
 }
 
+#aonLoginLanguageSpanToolbar {
+	color: var(--aonWhite);
+}

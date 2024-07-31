@@ -54,16 +54,18 @@
 }
 
 .aonHeader,
-.aonMenuLeftop {
+.aonMenuLeftop,
+.aonMenuLeftTopDiv {
 	overflow: hidden;
 	background-color: var(--leevyBackground);
 }
 
-.aonMenuLeftop :hover{
+.aonMenuLeftop :hover,
+.aonMenuLeftTopDiv :hover {
 	  background-color: rgb(3, 0, 30);
 }
 
-#aonHeaderCompanyName,
+#aonHeaderCompany,
 .aonHeader .material-icons {
 	color: var(--leevyColor);;
 }

@@ -257,6 +257,7 @@
 
 .aonLink:after {
 	content: 'leevy';
+	color: var(--leevyBackground);
 }
 
 .aonTrademark:after {

@@ -308,3 +308,7 @@
 #aonLoginLanguageSpanToolbar{
 	color: var(--leevyColor);
 }
+
+.aonLoginButton:hover {
+  background-color: var(--leevyColor);
+}

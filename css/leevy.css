@@ -115,8 +115,29 @@
 	background-color: var(--leevyColor);
 }
 
-.aonMenuTopnav :hover,
-.aonMenuSidenav :hover {
+#new:hover,
+#home:hover,
+#invoice:hover,
+#documental:hover,
+#accounting:hover,
+#fiscal:hover,
+#payroll:hover,
+#timecontrol:hover,
+#note:hover,
+#messenger:hover,
+#office:hover,
+#garage:hover,
+#academy:hover,
+#comerce:hover,
+#comercialMenu:hover,
+#managementMenu:hover,
+#treasuryMenu:hover,
+#warehouseMenu:hover,
+#groupwareMenu:hover,
+#accountingMenu:hover,
+#fiscalMenu:hover,
+#payrollMenu:hover,
+#marketingMenu:hover {
 	background-color: rgba(6, 2, 46, 0.1);
 }
 

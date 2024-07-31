@@ -55,7 +55,7 @@
 
 .aonHeader,
 .aonMenuLeftop,
-.aonMenuLeftTopAppDiv {
+.aonMenuLeftTopStart {
 	overflow: hidden;
 	background-color: var(--leevyBackground);
 }

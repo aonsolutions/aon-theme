@@ -237,10 +237,10 @@
 .aonLoginLogo::before {
 	content: '';
 	width: 139px;
-	
 	height: 65px;
 	display: block;
 	background-size: contain;
+	background-repeat: no-repeat;
 	background-image: url("../image/leevyIcon.svg");
 }
 

@@ -310,5 +310,6 @@
 }
 
 .aonLoginButton:hover {
+  color: var(--leevyBackground);
   background-color: var(--leevyColor);
 }

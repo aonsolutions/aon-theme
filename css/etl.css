@@ -440,6 +440,7 @@
 	display:none;
 }
 .aonTheme {
+	color: 'ETL';
 	aon-theme: 'ETL';
 	font-family: 'ETL';
 }

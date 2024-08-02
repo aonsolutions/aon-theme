@@ -31,3 +31,9 @@
 	content: 'Accede a tu cuenta de AON';
 }
 
+/**
+Important. Keep this rule at the end of file 
+**/
+.aonTheme {
+	--aon-theme: 'AON';
+}

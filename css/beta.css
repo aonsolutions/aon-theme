@@ -1,5 +1,5 @@
 @import url(aon.css);
 
 .aonConfigTopNav {
-  display: block;
+  display: flex;
 }

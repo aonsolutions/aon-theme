@@ -439,3 +439,6 @@
 .aonLoginInfo {
 	display:none;
 }
+.aonTheme {
+	aon-theme: 'ETL';
+}

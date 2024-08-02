@@ -440,6 +440,5 @@
 	display:none;
 }
 .aonTheme {
-	display: block;
-	-aon-theme: 'ETL';
+	--aon-theme: 'ETL';
 }

@@ -155,3 +155,10 @@
 #aonLoginLanguageSpanToolbar {
 	color: var(--aonWhite);
 }
+
+/**
+Important. Keep this rule at the end of file 
+**/
+.aonTheme {
+	--aon-theme: 'OPENGES';
+}

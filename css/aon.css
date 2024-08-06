@@ -1,3 +1,8 @@
+.rootPanel {
+  z-index: 3;	
+  padding-left: 2px;
+  background-color: #fafafa;
+}
 
 .aonToolbar2 { /* NUEVO LOGIN */
   background-color: var(--aonBlack);
@@ -29,6 +34,72 @@
 
 .aonLoginSubTitle::after {
 	content: 'Accede a tu cuenta de AON';
+}
+
+
+.aonMenuSidenav{
+	--aonNote: rgb(255, 228, 104);
+}
+
+.rootPanel,
+.aonHeader,
+.aonMenuLeftop {
+	--aonNote: rgb(255, 248, 184);
+}
+
+.aonHeaderNote {
+	--aonIcon: rgb(95, 99, 104);
+}
+
+
+#aon-notesSidenav {
+	--aonSidenavSelected: rgb(95, 99, 104);
+}
+
+.aonHeaderNote .aonHeaderAppSpan{
+  	color: rgb(95, 99, 104);
+}
+
+.aonHeaderNote .material-icons,
+.aonHeaderNote #aonHeaderCompanyName,
+.aonMenuLeftopNote .material-symbols-outlined {
+  color: rgb(95, 99, 104);
+}
+
+#aon-notesSidenav .material-icons {
+	--aonNote: rgb(95, 99, 104);
+}
+
+#aonInvoiceSidenav .material-icons {
+	--aonInvoice: rgb(95, 99, 104);
+}
+
+#aonAccountingSidenav .material-icons {
+	--aonAccounting: rgb(95, 99, 104);
+}
+
+#aonFiscalSidenav img {
+	filter: grayscale(100%);
+}
+#aonFiscalSidenav .material-icons {
+	--aonFiscal: rgb(95, 99, 104);
+}
+
+#aonLaboralSidenav aon-icon,
+#aonLaboralSidenav .material-icons {
+	--aonPayroll: rgb(95, 99, 104);
+}
+
+#aonMessengerSidenav .material-icons {
+	--aonMessenger: rgb(95, 99, 104);
+}
+
+#aonDocumentalSidenav .material-icons {
+	--aonDocumental: rgb(95, 99, 104);
+}
+
+#aonSigninSidenav .material-icons {
+	--aonTimecontrol: rgb(95, 99, 104);
 }
 
 /**

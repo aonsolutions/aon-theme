@@ -8,4 +8,9 @@
   display: flex;
 }
 
-/*https://www.aonsolutions.es/images/escritorio/slider/slider-fondo.webp */
+#aonMenuLeftop-applications {
+  background-size: cover ;
+  background-image: url("https://www.aonsolutions.es/images/escritorio/slider/slider-fondo.webp");
+}
+
+

@@ -1,5 +1,11 @@
 @import url(aon.css);
 
+:root {
+  --aonMessenger: rgb(134, 211, 100);
+}
+
 .aonConfigTopNav {
   display: flex;
 }
+
+/*https://www.aonsolutions.es/images/escritorio/slider/slider-fondo.webp */

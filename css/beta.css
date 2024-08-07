@@ -8,12 +8,16 @@
   display: flex;
 }
 
-#applications {
+.aonMenuLeftopNew #applications,
+.aonMenuLeftopHome #applications,
+.aonNewMenuLeftTopAppDiv #applications{
   background-size: cover ;
   background-image: url("https://www.aonsolutions.es/images/escritorio/slider/slider-fondo.webp");
 }
 
-#aonMenuListAppImgTop-applications {
+.aonMenuLeftopNew #aonMenuListAppImgTop-applications,
+.aonMenuLeftopHome #aonMenuListAppImgTop-applications,
+.aonNewMenuLeftTopAppDiv #aonMenuListAppImgTop-applications{
   color: white;
 }
 

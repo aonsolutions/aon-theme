@@ -1,13 +1,14 @@
 @import url(aon.css);
-
+/*
 :root {
   --aonMessenger: rgb(134, 211, 100);
-}
+}*/
 
 .aonConfigTopNav {
   display: flex;
 }
 
+/*
 #applications:hover,
 .aonMenuLeftopNew #applications,
 .aonMenuLeftopHome #applications,
@@ -22,4 +23,5 @@
 .aonNewMenuLeftTopAppDiv #aonMenuListAppImgTop-applications{
   color: white;
 }
+*/
 

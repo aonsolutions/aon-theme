@@ -8,6 +8,7 @@
   display: flex;
 }
 
+#applications:hover,
 .aonMenuLeftopNew #applications,
 .aonMenuLeftopHome #applications,
 .aonNewMenuLeftTopAppDiv #applications{
@@ -15,6 +16,7 @@
   background-image: url("https://www.aonsolutions.es/images/escritorio/slider/slider-fondo.webp");
 }
 
+#applications:hover #aonMenuListAppImgTop-applications,
 .aonMenuLeftopNew #aonMenuListAppImgTop-applications,
 .aonMenuLeftopHome #aonMenuListAppImgTop-applications,
 .aonNewMenuLeftTopAppDiv #aonMenuListAppImgTop-applications{

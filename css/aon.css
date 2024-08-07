@@ -112,7 +112,7 @@
 .aonNewMenuLeftTopAppDiv #applications,
 .aonMenuLeftopApplications #applications{
   background-size: cover ;
-  background-image: url("/image/aon-background.webp");
+  background-image: url("../image/aon-background.webp");
 }
 
 #applications:hover #aonMenuListAppImgTop-applications,

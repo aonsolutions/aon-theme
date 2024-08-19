@@ -2537,6 +2537,9 @@
 	  white-space: nowrap;
 	  padding-bottom: 5px;
   }
+
+  .aonTabItemText:hover{
+	  background-color: white;
   
   .aonTabItemTextSelected {
 	  color: white;

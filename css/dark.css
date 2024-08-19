@@ -2539,7 +2539,7 @@
   }
 
   .aonTabItemText:hover{
-	  background-color: white;
+	  background-color: black;
   
   .aonTabItemTextSelected {
 	  color: white;

@@ -1577,7 +1577,8 @@
 	  border-radius: 50%;
 	  width: 40px;
 	  height: 40px;
-	  background-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.6);
+/* 	  background-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.6); */
+	  background-color: red;
 	  box-shadow: none;
 	  outline: none;
 	  opacity: 0;
@@ -1637,7 +1638,7 @@
   
   .aonCheckbox > input:checked + span::after,
   .aonCheckbox > input:indeterminate + span::after {
-	  border-color:red;
+	  border-color: black;
   }
   
   .aonCheckbox > input:indeterminate + span::after {

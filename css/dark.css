@@ -1666,11 +1666,11 @@
   }
   
   .aonCheckbox > input:active + span::before {
-	  border-color: var(--aonBlue);
+	  border-color: white;
   }
   
   .aonCheckbox > input:checked:active + span::before {
-	  border-color: transparent;
+	  border-color: red;
 	  background-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.6);
   }
   

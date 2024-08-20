@@ -1637,7 +1637,7 @@
   
   .aonCheckbox > input:checked + span::after,
   .aonCheckbox > input:indeterminate + span::after {
-	  border-color:black;
+	  border-color:red;
   }
   
   .aonCheckbox > input:indeterminate + span::after {
@@ -1671,8 +1671,7 @@
   
   .aonCheckbox > input:checked:active + span::before {
 	  border-color: white;
-/* 	  background-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.6); */
-	  background-color: red;
+	  background-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.6);
   }
   
   /* Disabled */

@@ -1663,9 +1663,6 @@
 	  opacity: 1;
 	  transform: scale(0);
 	  transition: transform 0s, opacity 0s;
-	  .aonTable tbody tr {
-		  background-color: black;
-	  }
   }
   
   .aonCheckbox > input:active + span::before {

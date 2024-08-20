@@ -878,6 +878,7 @@
 	transition-property: background-color;
 	border-bottom: 1px solid #ddd;
 	color: white;
+	background-color: var(--aonContentBeta);
   }
 
   .aonTableTrChecked {

@@ -1670,8 +1670,9 @@
   }
   
   .aonCheckbox > input:checked:active + span::before {
-	  border-color: red;
-	  background-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.6);
+	  border-color: white;
+/* 	  background-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.6); */
+	  background-color: red;
   }
   
   /* Disabled */

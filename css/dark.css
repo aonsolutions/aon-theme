@@ -2919,7 +2919,7 @@
 .aonMenuLeftopHome .material-symbols-outlined,
 .aonMenuLeftopStart .material-symbols-outlined,
 .aonMenuLeftopApplications .material-symbols-outlined {
-	color: var(--aonWhite);
+	color: white;
 }
 
 

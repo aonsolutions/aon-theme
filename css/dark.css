@@ -1586,9 +1586,10 @@
 	  transition: opacity 0.3s, transform 0.2s;
   }
 
-  .aonCheckBox > input:checked,
-  .aonTable tbody tr {
-	  background-color: red;
+  .aonCheckBox > input:checked {
+	  .aonTable tbody tr {
+   		background-color: red;
+	  }
   }
   
   /* Span */

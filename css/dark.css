@@ -890,7 +890,7 @@
   }
   
   .aonTable tbody tr:active {
-	background-color: black;
+	background-color: #bbb;
   }
   
   .aonTable td {

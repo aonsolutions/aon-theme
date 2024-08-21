@@ -1,1 +1,322 @@
+:root {
+	--aonAccounting: var(--aonWhite);
 
+	--aonBlack: black;
+
+	--aonLightBlue: #eaf1fb;
+	
+	--aonNewColor: red;
+
+	--leevyColor: #e5ff04;
+
+	--leevyBackground: #06022e;
+
+	--aonIcon: var(--leevyColor);
+
+	--aonSearchButton: rgb(95, 99, 104);
+
+	--aonCardColor:var(--aonWhite);
+
+	--aonTopMenuSpecial: var(--leevyColor);
+
+	--aonTopMenuAvailable: var(--leevyColor);
+
+	--aonHeaderButtonColor: var(--leevyColor);
+
+	--aonRightPanelColor: #fafafa;
+
+	--aonHeaderBackgroundAvailable: var(--leevyBackground);
+
+	--aonNote: var(--leevyBackground);
+
+	--aonInvoice: var(--leevyBackground);
+
+	--aonDocumental: var(--leevyBackground);
+
+	--aonPayroll: var(--leevyBackground);
+
+	--aonFiscal: var(--leevyBackground);
+
+	--aonMessenger: var(--leevyBackground);
+
+	--aonTimecontrol: var(--leevyBackground);
+
+	--aonAccounting: var(--leevyBackground);
+	
+	--aonSwitchButtonBarOn: #F2FF7C;
+
+	--aonSwitchButtonBarOff: #989797;
+
+	--aonSwitchButtonCircleOff: white;
+
+	--aonSwitchButtonCircleOn: var(--leevyColor);
+
+}
+
+.aonHeader,
+.aonMenuLeftop,
+.aonMenuLeftopStart {
+	overflow: hidden;
+	background-color: var(--leevyBackground);
+}
+
+.aonMenuLeftop :hover,
+.aonMenuLeftTopDiv :hover {
+	  background-color: rgb(3, 0, 30);
+}
+
+#aonHeaderCompany,
+.aonHeader .material-icons {
+	color: var(--leevyColor);;
+}
+
+.aonMenuLeftop .material-symbols-outlined  {
+	color: var(--leevyColor);
+}
+
+.aonCardTitle {
+	color: var(--leevyBackground);
+}
+
+.aonCard {
+	border: 0px;
+	background-color: var(--aonCardColor);
+}
+
+.aonCardText {
+	color: black;
+}
+
+.aonContentBeta {
+	background-color: var(--aonRightPanelColor);
+}
+
+.aonDashboardButton {
+	color: white;
+	background-color: var(--aonCardColor);
+}
+
+.aonDashboardCard {
+	color: white;
+}
+
+.aonDashboardButton i{
+	color:var(--leevyBackground);
+	background-color: transparent;
+}
+
+.aonDashboardButton span{
+	color:var(--leevyBackground);
+}
+
+.aonMenuTopnav,
+.aonMenuSidenav {
+	color: var(--leevyBackground);
+	background-color: var(--leevyColor);
+}
+
+#new:hover,
+#home:hover,
+#invoice:hover,
+#documental:hover,
+#accounting:hover,
+#fiscal:hover,
+#payroll:hover,
+#timecontrol:hover,
+#note:hover,
+#messenger:hover,
+#office:hover,
+#garage:hover,
+#academy:hover,
+#comerce:hover,
+#comercialMenu:hover,
+#managementMenu:hover,
+#treasuryMenu:hover,
+#warehouseMenu:hover,
+#groupwareMenu:hover,
+#accountingMenu:hover,
+#fiscalMenu:hover,
+#payrollMenu:hover,
+#marketingMenu:hover {
+	background-color: rgba(6, 2, 46, 0.1);
+}
+
+
+.aonFavicon {
+	background-image: url("https://leevy.es/favicon.svg");
+}
+
+
+#aonHeaderCompanyList:hover,
+#aonHeaderHelp:hover,
+#aonHeaderConfig:hover,
+#aonHeaderNotification:hover,
+#aonHeaderUser:hover{
+  background-color: rgb(3, 0, 30);
+  border-radius: 100px;
+  /*transition: background-color 0.2s;*/
+}
+
+
+.aonHeaderNote #aonHeaderCompanyName,
+.aonHeaderFiscal #aonHeaderCompanyName,
+.aonHeaderPayroll #aonHeaderCompanyName,
+.aonHeaderInvoice  #aonHeaderCompanyName,
+.aonHeaderMessenger #aonHeaderCompanyName,
+.aonHeaderAccounting #aonHeaderCompanyName,
+.aonHeaderDocumental #aonHeaderCompanyName,
+.aonHeaderTimecontrol #aonHeaderCompanyName,
+.aonHeaderOffice #aonHeaderCompanyName,
+.aonHeaderGarage #aonHeaderCompanyName,
+.aonHeaderAcademy #aonHeaderCompanyName,
+.aonHeaderComerce #aonHeaderCompanyName,
+.aonHeaderComercialMenu #aonHeaderCompanyName,
+.aonHeaderManagementMenu #aonHeaderCompanyName,
+.aonHeaderTreasuryMenu #aonHeaderCompanyName,
+.aonHeaderWarehouseMenu #aonHeaderCompanyName,
+.aonHeaderGroupwareMenu #aonHeaderCompanyName,
+.aonHeaderAccountingMenu #aonHeaderCompanyName,
+.aonHeaderFiscalMenu #aonHeaderCompanyName,
+.aonHeaderPayrollMenu #aonHeaderCompanyName,
+.aonHeaderMarketingMenu #aonHeaderCompanyName,
+.aonHeaderHome  #aonHeaderCompanyName,
+.aonHeaderApplications  #aonHeaderCompanyName,
+.aonHeaderStart #aonHeaderCompanyName {
+	color: var(--leevyColor);
+}
+
+/* #aonMenuListAppImgTop-home {
+	color: var(--leevyBackground);
+} */
+
+#aon-search-buttonIcon{
+	color: var(--aonSearchButton);
+}
+
+.aonHeaderAppIcon{
+	color: var(--leevyColor);
+	padding: 4px;
+	font-size: 24px;
+}
+  
+.aonHeaderAppSpan{
+	text-align: center;
+	min-height: 21px;
+	color: var(--leevyColor);
+}
+
+.aonNewLogo{
+	width: 132px;
+	height: 32px;
+	cursor: pointer;
+	padding: 0px 0px 0px 68px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../image/leevy-yellow-logo.svg");  
+}
+
+.aonLink {
+	color: var(--leevyBackground) !important;
+}
+
+.aonToolbar2{
+  background-color: var(--leevyBackground);
+}
+
+.aonLoginLogo{
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  background-size: 139px 65px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-image: url("../image/leevy-yellow-logo.svg");
+}
+
+.aonLoginLogo::before {
+	content: '';
+	width: 139px;
+	height: 50px;
+	display: block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../image/leevyIcon.svg");
+}
+
+.aonLoginTitle {
+	color: var(--leevyColor);
+}
+
+.aonMagicButton,
+.aonMagicButton:hover {
+	color: black;
+	border-color: var(--leevyColor);
+	background-color: var(--leevyColor);
+}
+
+.aonLink:after {
+	content: 'leevy';
+	color: var(--leevyBackground);
+}
+
+.aonTrademark:after {
+	content: 'es una marca registrada de AYUDA T, S.L.';
+}
+
+.aonSupportTelephone:after {
+	content: '(+34) 900 909 642';	
+}
+
+.aonSupportUsersEmail:after {
+	content: 'info@leevy.es';	
+}
+
+.aonSupportSalesEmail:after {
+	content: 'comercial@aonSolutions.es';
+	display: none;
+}
+
+.aonSupportAdminEmail:after {
+	content: 'administración@aonSolutions.es';	
+	display: none;}
+
+#aonContactIcon3 {
+	display: none;
+}
+
+#aonContactIcon4 {
+	display: none;
+}
+
+#aonLogin {
+	background-image: url('https://leevy.es/_astro/bg-hero.ab734f4c.webp');
+}
+
+#aonLoginUserTitle,
+#aonLoginPasswordTitle {
+	display:none;
+}
+
+.aonDividerSpan{
+	color: var(--aonWhite);
+	background-color: transparent;
+}
+.aonDividerButtons {
+	border-bottom:none;
+}
+
+#aonLoginLanguageSpanToolbar{
+	color: var(--leevyColor);
+}
+
+.aonLoginButton:hover {
+  color: var(--leevyBackground);
+  background-color: var(--leevyColor);
+}
+
+/**
+Important. Keep this rule at the end of file 
+**/
+.aonTheme {
+	--aon-theme: 'LEEVY';
+}

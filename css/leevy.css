@@ -1,20 +1,20 @@
 :root{
-   --tw-bg-opacity: 1;
-   --opengesGreen : rgb(82 217 160 / var(--tw-bg-opacity));
-
-  --aonTopMenuAvailable: white;
-	
-	
+	--tw-bg-opacity: 1;
+	--leevyColor: #e5ff04;
+	--leevyBlue: #06022e;
+	--aonTopMenuAvailable: white;
+		
+		
 	--aonTopMenuSpecial : black; /* var(--opengesGreen); */
 	--aonTopMenuAvailable : black; /*var(--opengesGreen);*/
-	
+		
 	--aonHeaderBackgroundAvailable:black;
 
 }
 
 .aonHeader {
 	overflow: hidden;
-	background-color: black;
+	background-color: var(--leevyBlue);
 }
 
 #aonHeaderCompanyName,
@@ -30,12 +30,12 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("https://www.openges.es/images/logo.svg");
+    background-image: url("../image/leevy-yellow-logo.svg");
 }
 
 .aonMenuLeftop {
 	--aonTopMenuAvailable: white;
-	background-color: black;
+	background-color: var(--leevyBlue);
 	
 }
 
@@ -46,7 +46,7 @@
 
 
 .aonFavicon {
-	background-image: url("https://www.openges.es//images/icons/icon32x32.png");
+	background-image: url("https://leevy.es/favicon.svg");
 }
 
 .aonTabItemTextSelected {

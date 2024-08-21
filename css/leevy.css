@@ -87,7 +87,8 @@
 
 
 .aonLogin {
-	background-position: left;	
+	background-position-x: left;	
+	background-position-y:left;
 	background-repeat: no-repeat;
 	background-image: url("../image/leevyBackground.webp");
 }

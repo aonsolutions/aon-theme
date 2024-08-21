@@ -89,10 +89,10 @@
 .aonLogin {
 	background: 
         	linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%),
-        	url("../image/leevyBackground.png");
+        	url("../image/LeevyBackground.png");
     	background-repeat: no-repeat; 
     	background-size: 100% 100%; 
-    	background-position: left; 
+    	background-position: left center; 
 }
 
 .aonLoginFormContent {

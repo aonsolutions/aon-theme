@@ -2740,7 +2740,17 @@
   cursor: pointer;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../assets/aon-logo.svg");
+  background-image: url("../image/aon-white-logo.svg");
+}
+	  
+.aonLoginTitle {
+  font-family: var(--roboto-34-sp-h4-font-family);
+  color: white;
+  font-size: 2rem;
+  margin-bottom: .5rem;
+  margin-top: 0;
+  font-weight: 600;
+  letter-spacing: 0.44px;
 }
 
 .aonLink:after {

@@ -22,6 +22,11 @@
 	color: white;
 }
 
+.aonHeader .material-icons:hover {
+	background-color: rgba(0,0,0,0.1);
+  	border-radius: 100px;
+}
+
 .aonNewLogo {
     width: 139px;
     height: 48px;
@@ -156,7 +161,7 @@
 }
 
 .aonTrademark:after {
-	content: 'es una marca registrada de LEEVY.';
+	content: 'es una marca registrada de AYUDA T, S.L.';
 }
 
 .aonWeekSchedule:after{
@@ -168,20 +173,21 @@
 }
 
 .aonSupportTelephone:after {
-	content: '(+34) 900 730 037';	
+	content: '(+34) 900 909 642';	
 }
 
 .aonSupportUsersEmail:after {
 	content: 'info@leevy.es';	
 }
 
-.aonSupportSalesEmail:after {
-	content: 'comercial@leevy.es';	
+.ao.aonSupportSalesEmail:after {
+	content: 'comercial@aonSolutions.es';
+	display: none;
 }
 
 .aonSupportAdminEmail:after {
-	content: 'comunicacion@leevy.es';	
-}
+	content: 'administración@aonSolutions.es';	
+	display: none;}
 
 #aonLoginLanguageSpanToolbar {
 	color: var(--aonWhite);

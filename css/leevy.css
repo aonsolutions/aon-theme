@@ -120,22 +120,22 @@
 }
 
 .aonLoginTitle {
-	color: var(--opengesGreen);
+	color: var(--leevyBlue);
 }
 
 .aonMagicButton,
 .aonMagicButton:hover {
-	color: black;
-	border-color: var(--opengesGreen);
-	background-color: var(--opengesGreen);
+	color: white;
+	border-color: var(--leevyBlue);
+	background-color: var(--leevyBlue);
 }
 
 .aonLink:after {
-	content: 'OPENGES SOLUTIONS';
+	content: 'lEEVY';
 }
 
 .aonTrademark:after {
-	content: 'es una marca registrada de OPENGES.';
+	content: 'es una marca registrada de LEEVY.';
 }
 
 .aonWeekSchedule:after{
@@ -151,15 +151,15 @@
 }
 
 .aonSupportUsersEmail:after {
-	content: 'info@etl.es';	
+	content: 'info@leevy.es';	
 }
 
 .aonSupportSalesEmail:after {
-	content: 'comercial@etl.es';	
+	content: 'comercial@leevy.es';	
 }
 
 .aonSupportAdminEmail:after {
-	content: 'comunicacion@etl.es';	
+	content: 'comunicacion@leevy.es';	
 }
 
 #aonLoginLanguageSpanToolbar {
@@ -170,5 +170,5 @@
 Important. Keep this rule at the end of file 
 **/
 .aonTheme {
-	--aon-theme: 'OPENGES';
+	--aon-theme: 'LEEVY';
 }

@@ -50,14 +50,14 @@
 }
 
 .aonTabItemTextSelected {
-    border-bottom: 2px solid var(--opengesGreen);
+    border-bottom: 2px solid var(--leevyBlue);
 }
 
 .aonSwitch > input:checked + span::before {
     background-color: #e39896;
 }
 .aonSwitch > input:checked + span::after {
-    background-color: var(--opengesGreen);
+    background-color: var(--leevyBlue);
 }
 
 /*
@@ -65,11 +65,11 @@
  */
 .aonRootGradiantHeaderTop,
 .aonRootGradiantHeaderBottom {
-    background: radial-gradient(circle,var(--opengesGreen) 0,hsla(240,9%,96%,0) 68%);
+    background: radial-gradient(circle,var(--leevyBlue) 0,hsla(240,9%,96%,0) 68%);
 } 
 
 #aonMenuListAppImgTop-home {
-	color: var(--opengesGreen);
+	color: var(--leevyBlue);
 }
 
 
@@ -89,7 +89,7 @@
 .aonLogin {
 	background-position: left;	
 	background-repeat: no-repeat;
-	background-image: url("https://my.openges.es/img/OgLoginBackground2.jpg");
+	background-image: url("https://leevy.es/_astro/bg-hero.ab734f4c.webp");
 }
 
 .aonLoginFormContent {

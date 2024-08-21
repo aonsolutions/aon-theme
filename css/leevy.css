@@ -5,10 +5,10 @@
 	--aonTopMenuAvailable: white;
 		
 		
-	--aonTopMenuSpecial : black; /* var(--opengesGreen); */
-	--aonTopMenuAvailable : black; /*var(--opengesGreen);*/
+	--aonTopMenuSpecial : var(--leevyBlue); 
+	--aonTopMenuAvailable : var(--leevyBlue);
 		
-	--aonHeaderBackgroundAvailable:black;
+	--aonHeaderBackgroundAvailable: black;
 
 }
 
@@ -77,12 +77,12 @@
  * Login screen
 */
 .aonLink {
-	color: var(--opengesGreen) !important;
+	color: var(--leevyBlue) !important;
 }
 
 .aonToolbar2{
   border-bottom: none;
-  background-color: black;
+  background-color: var(--leevyBlue);
 }
 
 
@@ -100,13 +100,23 @@
 	padding-left: 50%;	
 }
 .aonLoginLogo{
-  width: 139px;
-  height: 65px;
+  width: 200px;
+  height: 50px;
   cursor: pointer;
-  background-size: contain;
-  background-position: center;
+  background-size: 139px 65px;
+  background-position: right;
   background-repeat: no-repeat;
-  background-image: url("https://www.openges.es/images/logo.svg");
+  background-image: url("../image/leevy-yellow-logo.svg");
+}
+
+.aonLoginLogo::before {
+	content: '';
+	width: 139px;
+	height: 50px;
+	display: block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../image/leevyIcon.svg");
 }
 
 .aonLoginTitle {

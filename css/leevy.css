@@ -22,7 +22,10 @@
 	color: white;
 }
 
-.aonHeader .material-icons:hover {
+#aonHeaderHelp:hover, 
+#aonHeaderConfig:hover, 
+#aonHeaderNotification:hover, 
+#aonHeaderUser:hover{
 	background-color: rgba(0,0,0,0.1);
   	border-radius: 100px;
 }

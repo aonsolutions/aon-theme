@@ -17,7 +17,7 @@
 	background-color: var(--leevyBlue);
 }
 
-.aonHeaderStart #aonHeaderCompanyName,
+.aonHeader #aonHeaderCompanyName,
 .aonHeader .material-icons {
 	color: white;
 }

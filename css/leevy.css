@@ -43,7 +43,8 @@
 }
 
 
-.aonMenuLeftop {
+.aonMenuLeftop,
+.aonMenuLeftopStart {
 	--aonTopMenuAvailable: white;
 	background-color: var(--leevyBlue);
 	

@@ -175,7 +175,6 @@
 	'wght' 400,
 	'GRAD' 0,
 	'opsz' 24;
-	color: white;
   }
 
   #aon-search-buttonIcon {
@@ -183,7 +182,6 @@
   }
   
   .material-symbols-outlined {
-	color: white;
 	font-variation-settings:
 	'FILL' 0,
 	'wght' 400,

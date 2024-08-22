@@ -2852,32 +2852,9 @@
 	background-color: black;
   }
   
-
-.aonHeaderNote .material-icons,
-.aonHeaderFiscal .material-icons,
-.aonHeaderPayroll .material-icons,
-.aonHeaderInvoice  .material-icons,
-.aonHeaderMessenger .material-icons,
-.aonHeaderAccounting .material-icons,
-.aonHeaderDocumental .material-icons,
-.aonHeaderTimecontrol .material-icons,
-.aonHeaderOffice .material-icons,
-.aonHeaderGarage .material-icons,
-.aonHeaderAcademy .material-icons,
-.aonHeaderComerce .material-icons,
-.aonHeaderComercialMenu .material-icons,
-.aonHeaderManagementMenu .material-icons,
-.aonHeaderTreasuryMenu .material-icons,
-.aonHeaderWarehouseMenu .material-icons,
-.aonHeaderGroupwareMenu .material-icons,
-.aonHeaderAccountingMenu .material-icons,
-.aonHeaderFiscalMenu .material-icons,
-.aonHeaderPayrollMenu .material-icons,
-.aonHeaderMarketingMenu .material-icons,
-.aonHeaderHome .material-icons,
-.aonHeaderStart .material-icons,
-.aonHeaderApplications .material-icons  {
-	color: var(--aonWhite);
+.aonHeader #aonHeaderCompanyName,
+.aonHeader .material-icons {
+	color: white;
 }
 
 .aonHeaderNote #aon-search-buttonIcon,

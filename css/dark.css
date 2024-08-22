@@ -2920,6 +2920,12 @@
 	color: white;
 } */
 
+.aonMenuLeftopHome .material-symbols-outlined, 
+.aonMenuLeftopStart .material-symbols-outlined, 
+.aonMenuLeftopApplications .material-symbols-outlined{
+	color: white;
+}
+
 
 
 .aonHeaderNote #aonHeaderCompanyName,

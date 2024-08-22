@@ -183,6 +183,7 @@
   }
   
   .material-symbols-outlined {
+	color: white;
 	font-variation-settings:
 	'FILL' 0,
 	'wght' 400,
@@ -2857,6 +2858,15 @@
 	color: white;
 }
 
+#aonHeaderCompanyList:hover,
+#aonHeaderHelp:hover, 
+#aonHeaderConfig:hover, 
+#aonHeaderNotification:hover, 
+#aonHeaderUser:hover{
+	background-color: rgba(255,255,255,0.3);
+  	border-radius: 100px;
+}
+
 .aonHeaderNote #aon-search-buttonIcon,
 .aonHeaderFiscal #aon-search-buttonIcon,
 .aonHeaderPayroll #aon-search-buttonIcon,
@@ -2882,7 +2892,7 @@
 }
 
 
-/* .aonMenuLeftopNote .material-symbols-outlined,
+/* /* .aonMenuLeftopNote .material-symbols-outlined,
 .aonMenuLeftopFiscal .material-symbols-outlined,
 .aonMenuLeftopPayroll .material-symbols-outlined,
 .aonMenuLeftopInvoice  .material-symbols-outlined,
@@ -2908,7 +2918,7 @@
 .aonMenuLeftopApplications .material-symbols-outlined, */
 .aonMenuLeftop .material-symbols-outlined {
 	color: white;
-}
+} */
 
 
 

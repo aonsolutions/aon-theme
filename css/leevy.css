@@ -188,7 +188,7 @@
 	content: 'info@leevy.es';	
 }
 
-.ao.aonSupportSalesEmail:after {
+.aonSupportSalesEmail:after {
 	content: 'comercial@aonSolutions.es';
 	display: none;
 }

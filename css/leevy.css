@@ -43,14 +43,12 @@
 }
 
 
-.aonMenuLeftop,
-.aonMenuLeftopStart {
+#applications {
 	--aonTopMenuAvailable: white;
 	background-color: var(--leevyBlue);
 }
 
-.aonMenuLeftop::hover,
-.aonMenuLeftopStart::hover {
+ #applications:hover {
 	background-color: rgba(6, 2, 46, 0.5);
 }
 

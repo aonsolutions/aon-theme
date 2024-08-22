@@ -47,8 +47,13 @@
 .aonMenuLeftopStart {
 	--aonTopMenuAvailable: white;
 	background-color: var(--leevyBlue);
-	
 }
+
+.aonMenuLeftop::hover,
+.aonMenuLeftopStart::hover {
+	background-color: rgba(6, 2, 46, 0.5);
+}
+
 .aonMenuLeftop .material-symbols-outlined {
 	color: white;
 }
@@ -152,47 +157,47 @@
   margin-top: 1rem;
 }
 
-.aonLoginButton:hover {
+.aonLoginButton::hover {
   background-color: var(--leevyBlue);
   color: var(--white-base);
 }
 
 .aonMagicButton,
-.aonMagicButton:hover {
+.aonMagicButton::hover {
 	color: white;
 	border-color: var(--leevyBlue);
 	background-color: var(--leevyBlue);
 }
 
-.aonLink:after {
+.aonLink::after {
 	content: 'LEEVY';
 }
 
-.aonTrademark:after {
+.aonTrademark::after {
 	content: 'es una marca registrada de AYUDA T, S.L.';
 }
 
-.aonWeekSchedule:after{
+.aonWeekSchedule::after{
 	content: 'Lunes a jueves de 9:00 a 18:00';
 }
 
-.aonWeekFridaySchedule:after{
+.aonWeekFridaySchedule::after{
 	content: 'Viernes de 9:00 a 14:00';
 }
 
-.aonSupportTelephone:after {
+.aonSupportTelephone::after {
 	content: '(+34) 900 909 642';	
 }
 
-.aonSupportUsersEmail:after {
+.aonSupportUsersEmail::after {
 	content: 'info@leevy.es';	
 }
 
-.aonSupportSalesEmail:after {
+.aonSupportSalesEmail::after {
 	content: 'comercial@leevy.es';
 }
 
-.aonSupportAdminEmail:after {
+.aonSupportAdminEmail::after {
 	content: 'administración@leevy.es';	
 }
 
@@ -200,7 +205,7 @@
 	color: var(--aonWhite);
 }
 
-.aonNewMenuSideNavLi:hover{
+.aonNewMenuSideNavLi::hover{
 	background-color: rgb(240,240,240);
 }
 

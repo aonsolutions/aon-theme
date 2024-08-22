@@ -143,73 +143,10 @@
 	
 
 }
-/* Estilos para ocultar la barra de desplazamiento en todos los elementos */
-  * {
-	-ms-overflow-style: none; /* Internet Explorer 10+ */
-	scrollbar-width: none; /* Firefox */
-  }
-  
-  /* Ocultar la barra de desplazamiento en navegadores basados en WebKit (Chrome, Safari) */
-  *::-webkit-scrollbar {
-	width: 0;
-	height: 0;
-  }
-  
-  
-  .material-icons {
-	font-family: 'Material Symbols Outlined';
-	font-weight: normal;
-	font-style: normal;
-	font-size: 24px;
-	line-height: 1;
-	letter-spacing: normal;
-	text-transform: none;
-	display: inline-block;
-	white-space: nowrap;
-	word-wrap: normal;
-	direction: ltr;
-	-moz-font-feature-settings: 'liga';
-	-moz-osx-font-smoothing: grayscale;
-	font-variation-settings:
-	'FILL' 0,
-	'wght' 400,
-	'GRAD' 0,
-	'opsz' 24;
-  }
+
 
   #aon-search-buttonIcon {
 	color: var(--aonSearchButton);
-  }
-  
-  .material-symbols-outlined {
-	font-variation-settings:
-	'FILL' 0,
-	'wght' 400,
-	'GRAD' 0,
-	'opsz' 24
-  }
-  
-  
-  *, ::after, ::before {
-	box-sizing: border-box;
-	/* color: white; */
-  }
-  
-  
-  .dragAndDrop {
-	border: 1px dashed #002469 !important;
-	opacity: 0.6;
-  }
-  
-  .dragAndDrop::after {
-	content: "Suelte los archivos aquí";
-	opacity:  1;
-	position: absolute;
-	color: #808080;
-	font-size: 20px;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
   }
   
   .aonBody {

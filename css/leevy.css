@@ -197,7 +197,7 @@
 	color: var(--aonWhite);
 }
 
-.aonNewMenuSideNavLi:hover{
+.aonNewMenuSideNavUi:hover{
 	background-color: rgb(240,240,240);
 }
 

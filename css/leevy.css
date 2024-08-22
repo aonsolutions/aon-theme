@@ -197,9 +197,15 @@
 	color: var(--aonWhite);
 }
 
+.aonNewMenuSideNavLi:hover{
+	background-color: rgb(240,240,240);
+}
+
 /**
 Important. Keep this rule at the end of file 
 **/
 .aonTheme {
 	--aon-theme: 'LEEVY';
 }
+
+

@@ -13,11 +13,11 @@
   background-color: var(--aonSideNavColor);
 }
 
-#applications:hover,
-.aonMenuLeftopNew #applications,
+#applications:hover {
+/* .aonMenuLeftopNew #applications,
 .aonMenuLeftopHome #applications,
 .aonNewMenuLeftTopAppDiv #applications,
-.aonMenuLeftopApplications #applications{
+.aonMenuLeftopApplications #applications{ */
   background-size: cover ;
   background-image: url("../image/aon-background.webp");
 }

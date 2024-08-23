@@ -1,0 +1,14 @@
+:root {
+  --aonSideNavColor: #75163F;
+
+}
+
+.aonHeaderInvoice, .aonMenuLeftopInvoice,
+.aonHeaderAccounting, .aonMenuLeftopAccounting,
+.aonHeaderFiscal, .aonMenuLeftopFiscal,
+.aonHeaderPayroll, .aonMenuLeftopPayroll,
+.aonHeaderTimecontrol, .aonMenuLeftopTimecontrol,
+.aonHeaderNote, .aonMenuLeftopNote,
+.aonHeaderMessenger, .aonMenuLeftopMessenger{
+  background-color: var(--aonInvoice);
+}

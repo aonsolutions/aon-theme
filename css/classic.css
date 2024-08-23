@@ -12,3 +12,10 @@
 .aonHeaderMessenger, .aonMenuLeftopMessenger{
   background-color: var(--aonSideNavColor);
 }
+
+/**
+Important. Keep this rule at the end of file 
+**/
+.aonTheme {
+	--aon-theme: 'CLASSIC';
+}

@@ -17,9 +17,18 @@
 	background-color: black;
 }
 
-#aonHeaderCompanyName,
+.aonHeader #aonHeaderCompanyName,
 .aonHeader .material-icons {
 	color: white;
+}
+
+#aonHeaderCompanyList:hover,
+#aonHeaderHelp:hover, 
+#aonHeaderConfig:hover, 
+#aonHeaderNotification:hover, 
+#aonHeaderUser:hover{
+	background-color: rgba(255,255,255,0.3);
+  	border-radius: 100px;
 }
 
 .aonNewLogo {
@@ -39,7 +48,7 @@
 }
 
  #applications:hover {
-	background-color: white;
+	background-color: rgb(240, 240, 240);
 }
 
 .aonMenuLeftop .material-symbols-outlined {
@@ -76,7 +85,7 @@
 } 
 
 #aonMenuListAppImgTop-home {
-	color: var(--opengesGreen);
+	color: black;
 }
 
 
@@ -148,19 +157,34 @@
 }
 
 .aonSupportUsersEmail:after {
-	content: 'info@etl.es';	
+	content: 'info@openges.es';	
 }
 
 .aonSupportSalesEmail:after {
-	content: 'comercial@etl.es';	
+	content: 'comercial@openges.es';	
 }
 
 .aonSupportAdminEmail:after {
-	content: 'comunicacion@etl.es';	
+	content: 'comunicacion@openges.es';	
 }
 
 #aonLoginLanguageSpanToolbar {
 	color: var(--aonWhite);
+}
+
+#new:hover, #home:hover, 
+#invoice:hover, #documental:hover, 
+#accounting:hover, #fiscal:hover, 
+#payroll:hover, #timecontrol:hover, 
+#note:hover, #messenger:hover, 
+#office:hover, #garage:hover, 
+#academy:hover, #comerce:hover, 
+#comercialMenu:hover, #managementMenu:hover, 
+#treasuryMenu:hover, #warehouseMenu:hover, 
+#groupwareMenu:hover, #accountingMenu:hover, 
+#fiscalMenu:hover, #payrollMenu:hover, 
+#marketingMenu:hover, #aonApplication:hover{
+	background-color: rgb(240,240,240);
 }
 
 #aon-notesSidenav .material-icons {

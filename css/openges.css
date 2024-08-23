@@ -42,15 +42,10 @@
     background-image: url("https://www.openges.es/images/logo.svg");
 }
 
-#applications {
+.aonMenuLeftop {
 	--aonTopMenuAvailable: white;
 	background-color: black;
 }
-
- #applications:hover {
-	background-color: rgba(255,255,255,0.3);
-}
-
 .aonMenuLeftop .material-symbols-outlined {
 	color: white;
 }
@@ -185,39 +180,6 @@
 #fiscalMenu:hover, #payrollMenu:hover, 
 #marketingMenu:hover, #aonApplication:hover{
 	background-color: rgb(240,240,240);
-}
-
-#aon-notesSidenav .material-icons {
-	--aonNote: rgb(95, 99, 104);
-}
-
-#aonInvoiceSidenav .material-icons {
-	--aonInvoice: rgb(95, 99, 104);
-}
-
-#aonAccountingSidenav .material-icons {
-	--aonAccounting: rgb(95, 99, 104);
-}
-
-#aonFiscalSidenav .material-icons {
-	--aonFiscal: rgb(95, 99, 104);
-}
-
-#aonLaboralSidenav aon-icon,
-#aonLaboralSidenav .material-icons {
-	--aonPayroll: rgb(95, 99, 104);
-}
-
-#aonMessengerSidenav .material-icons {
-	--aonMessenger: rgb(95, 99, 104);
-}
-
-#aonDocumentalSidenav .material-icons {
-	--aonDocumental: rgb(95, 99, 104);
-}
-
-#aonSigninSidenav .material-icons {
-	--aonTimecontrol: rgb(95, 99, 104);
 }
 
 /**

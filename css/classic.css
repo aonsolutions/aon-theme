@@ -13,6 +13,23 @@
   background-color: var(--aonSideNavColor);
 }
 
+#applications:hover,
+.aonMenuLeftopNew #applications,
+.aonMenuLeftopHome #applications,
+.aonNewMenuLeftTopAppDiv #applications,
+.aonMenuLeftopApplications #applications{
+  background-size: cover ;
+  background-image: url("../image/aon-background.webp");
+}
+
+#applications:hover #aonMenuListAppImgTop-applications,
+.aonMenuLeftopNew #aonMenuListAppImgTop-applications,
+.aonMenuLeftopHome #aonMenuListAppImgTop-applications,
+.aonNewMenuLeftTopAppDiv #aonMenuListAppImgTop-applications,
+.aonMenuLeftopApplications #aonMenuListAppImgTop-applications {
+  color: white;
+}
+
 /**
 Important. Keep this rule at the end of file 
 **/

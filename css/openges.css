@@ -35,11 +35,11 @@
 
 #applications {
 	--aonTopMenuAvailable: white;
-	background-color: var(--opengesGreen);
+	background-color: black;
 }
 
  #applications:hover {
-	background-color: #12114D;
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 .aonMenuLeftop {

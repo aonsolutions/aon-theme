@@ -33,6 +33,15 @@
     background-image: url("https://www.openges.es/images/logo.svg");
 }
 
+#applications {
+	--aonTopMenuAvailable: white;
+	background-color: var(--opengesGreen);
+}
+
+ #applications:hover {
+	background-color: #12114D;
+}
+
 .aonMenuLeftop {
 	--aonTopMenuAvailable: white;
 	background-color: black;

@@ -10,5 +10,5 @@
 .aonHeaderTimecontrol, .aonMenuLeftopTimecontrol,
 .aonHeaderNote, .aonMenuLeftopNote,
 .aonHeaderMessenger, .aonMenuLeftopMessenger{
-  background-color: var(--aonInvoice);
+  background-color: var(--aonSideNavColor);
 }

@@ -30,11 +30,13 @@
 }
 
 #aonAccountingSidenav .material-icons {
-	--aonAccounting: rgb(95, 99, 104);
+#	--aonAccounting: rgb(95, 99, 104);
+	--aonAccounting: rgb(196, 18, 48);
 }
 
 #aonFiscalSidenav .material-icons {
-	--aonFiscal: rgb(95, 99, 104);
+#	--aonAccounting: rgb(95, 99, 104);
+	--aonAccounting: rgb(0, 94, 181);
 }
 
 #aonLaboralSidenav aon-icon,

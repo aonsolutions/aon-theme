@@ -2827,7 +2827,7 @@
 }
 
 
-/* /* .aonMenuLeftopNote .material-symbols-outlined,
+.aonMenuLeftopNote .material-symbols-outlined,
 .aonMenuLeftopFiscal .material-symbols-outlined,
 .aonMenuLeftopPayroll .material-symbols-outlined,
 .aonMenuLeftopInvoice  .material-symbols-outlined,
@@ -2850,10 +2850,10 @@
 .aonMenuLeftopAccountingMenu .material-symbols-outlined,
 .aonMenuLeftopHome .material-symbols-outlined,
 .aonMenuLeftopStart .material-symbols-outlined,
-.aonMenuLeftopApplications .material-symbols-outlined, */
+.aonMenuLeftopApplications .material-symbols-outlined,
 .aonMenuLeftop .material-symbols-outlined {
 	color: white;
-} */
+}
 
 .aonMenuLeftopHome .material-symbols-outlined, 
 .aonMenuLeftopStart .material-symbols-outlined, 

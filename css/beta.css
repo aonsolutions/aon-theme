@@ -1,27 +1,13 @@
 @import url(aon.css);
-/*
-:root {
-  --aonMessenger: rgb(134, 211, 100);
-}*/
 
 .aonConfigTopNav {
   display: flex;
 }
 
-/*
-#applications:hover,
-.aonMenuLeftopNew #applications,
-.aonMenuLeftopHome #applications,
-.aonNewMenuLeftTopAppDiv #applications{
-  background-size: cover ;
-  background-image: url("https://www.aonsolutions.es/images/escritorio/slider/slider-fondo.webp");
+#aonMenuBar-treasuryMenu,
+#aonMenuBar-comercialMenu,
+#aonMenuBar-warehouseMenu,
+#aonMenuBar-groupwareMenu,
+#aonMenuBar-managementMenu{
+  display: none;
 }
-
-#applications:hover #aonMenuListAppImgTop-applications,
-.aonMenuLeftopNew #aonMenuListAppImgTop-applications,
-.aonMenuLeftopHome #aonMenuListAppImgTop-applications,
-.aonNewMenuLeftTopAppDiv #aonMenuListAppImgTop-applications{
-  color: white;
-}
-*/
-

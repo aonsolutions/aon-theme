@@ -1,0 +1,62 @@
+:root {
+  --aonSideNavColor: #75163F;
+
+}
+
+.aonHeaderInvoice, .aonMenuLeftopInvoice,
+.aonHeaderAccounting, .aonMenuLeftopAccounting,
+.aonHeaderFiscal, .aonMenuLeftopFiscal,
+.aonHeaderPayroll, .aonMenuLeftopPayroll,
+.aonHeaderTimecontrol, .aonMenuLeftopTimecontrol,
+.aonHeaderNote, .aonMenuLeftopNote,
+.aonHeaderMessenger, .aonMenuLeftopMessenger{
+  background-color: var(--aonSideNavColor);
+}
+
+#applications:hover {
+  background-size: cover ;
+  background-image: url("../image/aon-background.webp");
+  #aonMenuListAppImgTop-applications {
+	  color: white;
+  }
+}
+
+#aon-notesSidenav .material-icons {
+	--aonNote: rgb(95, 99, 104);
+}
+
+#aonInvoiceSidenav .material-icons {
+	--aonInvoice: rgb(95, 99, 104);
+}
+
+#aonAccountingSidenav .material-icons {
+	--aonAccounting: rgb(95, 99, 104);
+}
+
+#aonFiscalSidenav .material-icons {
+	--aonFiscal: rgb(95, 99, 104);
+}
+
+#aonLaboralSidenav aon-icon,
+#aonLaboralSidenav .material-icons {
+	--aonPayroll: rgb(95, 99, 104);
+}
+
+#aonMessengerSidenav .material-icons {
+	--aonMessenger: rgb(95, 99, 104);
+}
+
+#aonDocumentalSidenav .material-icons {
+	--aonDocumental: rgb(95, 99, 104);
+}
+
+#aonSigninSidenav .material-icons {
+	--aonTimecontrol: rgb(95, 99, 104);
+}
+
+/**
+Important. Keep this rule at the end of file 
+**/
+.aonTheme {
+	--aon-theme: 'CLASSIC';
+}

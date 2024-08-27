@@ -1,6 +1,8 @@
 :root {
-  --aonSideNavColor: #75163F;
-  --aonAccountingSideNavSymbol: "MATERIAL_ICONS.CALCULATE";
+	--aonSideNavColor: #75163F; 
+	--accountingSideNavSymbol: "MATERIAL_ICONS.CALCULATE";
+  	--fiscalSideNavSymbol: "MATERIAL_ICONS.EURO_SYMBOL";
+	--payrollSideNavSymbol: "MATERIAL_ICONS.GROUP";
 
 }
 

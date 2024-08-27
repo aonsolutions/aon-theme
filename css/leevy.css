@@ -10,6 +10,7 @@
 		
 	--aonHeaderBackgroundAvailable: black;
 
+	--favicon: https://leevy.es/favicon.svg;
 
 }
 
@@ -63,9 +64,9 @@
 }
 
 
-.aonFavicon {
+/* .aonFavicon {
 	background-image: url("https://leevy.es/favicon.svg");
-}
+} */
 
 .aonTabItemTextSelected {
     border-bottom: 2px solid var(--leevyBlue);

@@ -57,6 +57,11 @@
 	--aonTimecontrol: rgb(95, 99, 104);
 }
 
+#aonMenuListAppImgTop-fiscal {
+  scale: 1.2;
+  margin-bottom: 6px;
+}
+
 /**
 Important. Keep this rule at the end of file 
 **/

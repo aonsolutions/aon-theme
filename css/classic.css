@@ -24,17 +24,6 @@
   }
 }
 
-#aonMenuListAppImgTop-invoice,
-#aonMenuListAppImgTop-documental,
-#aonMenuListAppImgTop-accounting,
-#aonMenuListAppImgTop-fiscal,
-#aonMenuListAppImgTop-payroll,
-#aonMenuListAppImgTop-timecontrol,
-#aonMenuListAppImgTop-notes,
-#aonMenuListAppImgTop-messenger{
-	color: white;
-}
-
 #aon-notesSidenav .material-icons {
 	--aonNote: rgb(95, 99, 104);
 }

@@ -24,6 +24,10 @@
   }
 }
 
+#aonMenuListAppImgTop{
+	color: white;
+}
+
 #aon-notesSidenav .material-icons {
 	--aonNote: rgb(95, 99, 104);
 }

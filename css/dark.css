@@ -1,12 +1,12 @@
 :root {
 
-  --aonHeaderButtonColor: var(--aonWhite);
+  	--aonHeaderButtonColor: var(--aonWhite);
 	
 	--aonHeaderBackgroundColor: black;
 
 	--aonHeaderBackgroundAvailable: black;
 
-  --aonRightPanelColor: #212121;
+  	--aonRightPanelColor: #212121;
 
 	--aonGrayHeaderButtonsColor:var(--aonWhite);
 
@@ -48,7 +48,7 @@
 
 	--aonTopAppTextColor: var(--aonWhite);
 
-  --aonTopMenuAvailableMouseOverImg : black;
+  	--aonTopMenuAvailableMouseOverImg : black;
 
 	--aonTopMenuAvilableMouseOutText: white;
 
@@ -68,7 +68,7 @@
 
 	--aonHomeImg: white;
   
-  --aonSearchBar: var(--aonCardColor);
+ 	 --aonSearchBar: var(--aonCardColor);
   
-  --aonSearchButton: white;
+ 	 --aonSearchButton: white;
 }

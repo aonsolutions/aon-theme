@@ -101,5 +101,17 @@ h1 {
 	background-image: url("../assets/aon-white-logo.svg");
 }
 
+.sidenavHover:hover{
+	background-color: var(--aonLightBlue);
+}
 
+.aonInvoiceHover:hover,
+.aonPayrollHover:hover,
+.aonFiscalHover:hover,
+.aonDocumentalHover:hover,
+.aonMessengerHover:hover,
+.aonTimecontrolHover:hover,
+.aonAccountingHover:hover {
+	background-color: black;
+}
 

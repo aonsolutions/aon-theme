@@ -105,9 +105,114 @@ h1 {
 	background-color: var(--aonLightBlue);
 }
 
+.aonHeader {
+	color: var(--aonHeaderButtonsColor);
+	
+}
+
 .aonAvatar {
 	color: white;
 }
 
-  
+.aonLiBeta:hover {
+   	background-color: rgba(0,0,0,.70);
+}
 
+.aonLiSpan {
+	color: white;
+}
+
+.aonLiSpanSubtitle {
+	color: white;
+}
+
+.aonToolbar {
+	background-color: var(--aonContentBeta);
+}
+
+.aonToolbarTitle {
+	color: white;
+}
+
+.aonToolbarSection {
+	background-color: var(--aonContentBeta);
+}
+  
+.aonToolbarSectionEnd {
+	color: white;
+}
+
+.aonSecondaryToolbarTitle {
+	color: white;
+}
+
+.aonTable th {
+	color: white;
+}
+
+.aonTable tbody tr {
+	color: white;
+	background-color: var(--aonContentBeta);
+}
+
+.aonTableTrChecked {
+	background-color: black;
+}
+  
+.aonTable tbody tr:hover {
+	background-color: black;
+}
+  
+.aonTable tbody tr:active {
+	background-color: black;
+}
+
+.aonMenuSidenav {
+	color: #FFF;
+	background-color: var(--aonHeaderBackgroundColor);
+}
+
+.aonSidenavTitle {
+	color: white;
+}
+
+.aonSidenav {
+	background-color: var(--aonContentBeta);
+}
+
+ #aonAccountingSidenavPyG {
+	background-color: var(--aonAccountingColor);
+}
+
+.aonSearchBoxBeta {
+	color: var(--aonSearchButton);
+}
+
+.aonDashboardCard{
+	color: white;
+}
+
+/* Checked, Indeterminate */
+.aonCheckbox > input:checked,
+.aonCheckbox > input:indeterminate {
+	background-color: white;
+}
+
+.aonCheckbox > input:checked + span::before,
+.aonCheckbox > input:indeterminate + span::before {
+	border-color: white;
+	background-color: white;
+}
+  
+.aonCheckbox > input:checked + span::after,
+.aonCheckbox > input:indeterminate + span::after {
+	border-color: black;
+}
+
+.aonCheckbox > input:active + span::before {
+	border-color: white;
+}
+  
+.aonCheckbox > input:checked:active + span::before {
+	border-color: white;
+}

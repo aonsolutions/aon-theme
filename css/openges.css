@@ -46,6 +46,11 @@
 	--aonTopMenuAvailable: white;
 	background-color: black;
 }
+
+.aonMenuLeftopStart {
+  background-color: var(--aonHeaderBackgroundColor);
+}
+
 .aonMenuLeftop .material-symbols-outlined {
 	color: white;
 }

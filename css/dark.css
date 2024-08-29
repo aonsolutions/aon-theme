@@ -77,4 +77,20 @@
 	background-color: var(--aonContentBeta);
 }
 
+.aonDashboardButton i {
+	background-color: transparent;
+}
+
+.aonDashboardButton:hover{
+	background-color: black;
+}
+  
+.aonDashboardButton:hover i{
+	background-color: black;
+}
+
+[placeholder]:empty::before {
+	color: white; 
+	opacity: 0.6;
+}
 

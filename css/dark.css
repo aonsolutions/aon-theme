@@ -105,13 +105,9 @@ h1 {
 	background-color: var(--aonLightBlue);
 }
 
-.aonInvoiceHover:hover,
-.aonPayrollHover:hover,
-.aonFiscalHover:hover,
-.aonDocumentalHover:hover,
-.aonMessengerHover:hover,
-.aonTimecontrolHover:hover,
-.aonAccountingHover:hover {
-	background-color: black;
+.aonAvatar {
+	color: white;
 }
+
+  
 

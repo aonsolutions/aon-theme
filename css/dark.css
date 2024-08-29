@@ -73,8 +73,8 @@
  	 --aonSearchButton: white;
 }
 
-.aonBodyBeta{
-	background-color: #f6f8fc !important;
+.aonBody{
+	background-color: var(--aonContentBeta);
 }
 
 

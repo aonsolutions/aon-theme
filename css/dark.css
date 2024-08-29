@@ -89,8 +89,3 @@
 	background-color: black;
 }
 
-[placeholder]:empty::before {
-	color: white; 
-	opacity: 0.6;
-}
-

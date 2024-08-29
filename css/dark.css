@@ -216,3 +216,33 @@ h1 {
 .aonCheckbox > input:checked:active + span::before {
 	border-color: white;
 }
+
+.aonNewLogo{
+ 	background-image: url("../image/aon-white-logo.svg");  
+}
+
+.aonRootGradiantHeader {
+ 	background-color: var(--aonContentBeta);
+}
+
+.aonParentDiv  {
+	background-color: var(--aonContentBeta);
+}
+
+.aonWelcomeDiv  {
+	color: white;
+}
+
+.aonTabItemText {
+	  color: white;
+}
+
+.aonTabItemText:hover{
+	  background-color: rgba(0, 0, 0, 0.2);
+	  border-radius: 5px;
+}
+
+.aonTabItemTextSelected {
+	  color: white;
+}
+

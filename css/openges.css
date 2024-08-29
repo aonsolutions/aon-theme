@@ -70,7 +70,7 @@
 }
 
 .aonSwitch > input:checked + span::before {
-    background-color: #e39896;
+    background-color: rgb(82, 217, 160, 0.5);
 }
 .aonSwitch > input:checked + span::after {
     background-color: var(--opengesGreen);

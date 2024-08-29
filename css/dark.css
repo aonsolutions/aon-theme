@@ -89,3 +89,17 @@
 	background-color: black;
 }
 
+.rootPanel {
+	background-color: var(--aonContentBeta); 
+}
+
+h1 {
+	color: white;
+}
+
+.aonLogo {
+	background-image: url("../assets/aon-white-logo.svg");
+}
+
+
+

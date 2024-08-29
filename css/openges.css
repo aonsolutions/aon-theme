@@ -42,13 +42,15 @@
     background-image: url("https://www.openges.es/images/logo.svg");
 }
 
+.aonMenuLeftopStart,
 .aonMenuLeftop {
 	--aonTopMenuAvailable: white;
 	background-color: black;
 }
 
-.aonMenuLeftopStart {
-  background-color: black;
+.aonMenuLeftopStart:hover,
+.aonMenuLeftop:hover {
+  background-color: rgba(255,255,255,0.3);
 }
 
 .aonMenuLeftop .material-symbols-outlined {

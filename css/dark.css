@@ -1,1 +1,74 @@
+:root {
 
+  --aonHeaderButtonColor: var(--aonWhite);
+	
+	--aonHeaderBackgroundColor: black;
+
+	--aonHeaderBackgroundAvailable: black;
+
+  --aonRightPanelColor: #212121;
+
+	--aonGrayHeaderButtonsColor:var(--aonWhite);
+
+	--aonHeaderButtonsColor: var(--aonWhite);
+  
+	--aonCardColor: #3b3a39;
+
+	--aonCardTitle: var(--aonWhite);
+
+	--aonCardText: var(--aonWhite);
+
+	--aonNewUploadLabel: var(--aonWhite);
+
+	--aonContentBeta:  #212121;
+
+	--aonDashboardButtonText: white;
+
+	--aonDashboardButton: #3b3a39;
+
+	--aonSuiteMenuSideMenu: #212121;
+
+	--aonSuiteMenuSideMenuBorder:rgba(255,255,255,0.1);
+
+	--aonSuiteMenuNewButtonBorder: white;
+
+	--aonSuiteMenuNewButtonText: white;
+
+	--aonSuiteMenuNewButtonIcon: var(--aonSuiteMenuNewButtonText);
+
+	--aonSuiteMenuUploadButtonBorder: rgba(255,255,255,0.1);
+
+	--aonSuiteMenuTitle: white;
+
+	--aonSuiteMenuCardText: white;
+
+	--aonSuiteMenuCardText2: var(--aonCardText);
+
+	--aonSideNavRowHoverColor: #3b3a39;
+
+	--aonTopAppTextColor: var(--aonWhite);
+
+  --aonTopMenuAvailableMouseOverImg : black;
+
+	--aonTopMenuAvilableMouseOutText: white;
+
+	--aonAccountingMouseOver: var(--aonBlue);
+
+	--aonAccountingMouseOut: white;
+
+	--aonSwitchButtonBarOn: gray;
+
+	--aonSwitchButtonBarOff: gray;
+
+	--aonSwitchButtonCircleOff: var(--aonDarkGray);
+  
+	--aonSwitchButtonCircleOn: white;
+
+	--aonHomeMouseOverImg: black; 
+
+	--aonHomeImg: white;
+  
+  --aonSearchBar: var(--aonCardColor);
+  
+  --aonSearchButton: white;
+}

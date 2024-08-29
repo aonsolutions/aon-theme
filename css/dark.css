@@ -73,8 +73,8 @@
  	 --aonSearchButton: white;
 }
 
-.aonBody {
-	color: rgb(66, 66, 66);
+.aonBodyBeta{
+	background-color: #f6f8fc !important;
 }
 
 

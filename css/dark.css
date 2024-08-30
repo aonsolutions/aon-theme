@@ -465,4 +465,8 @@ h1 {
 	--aonTimecontrol: white;
 }
 
-
+#aonAccountingSidenavoptionsSelect,
+#aonAccountingSidenavoptionsViewSelect,
+#aonAccountingSidenavoptionsDetailSelect {
+	color: white;
+}

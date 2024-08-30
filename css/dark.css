@@ -195,6 +195,7 @@ h1 {
 /* Checked, Indeterminate */
 .aonCheckbox > input:checked,
 .aonCheckbox > input:indeterminate {
+	border-color: black;
 	background-color: white;
 }
 

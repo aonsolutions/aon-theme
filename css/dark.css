@@ -219,11 +219,11 @@ h1 {
 }
 
 .aonCheckbox > span::before {
-    border-color: white;
+    	border-color: white;
 }
 
-.aonTableTr aonTableTrChecked {
-	background-color: black;
+.aonTableTr.aonTableTrChecked {
+  	background-color: black;
 }
 
 .aonNewLogo{

@@ -181,7 +181,7 @@ h1 {
 }
 
  #aonAccountingSidenavPyG {
-	background-color: var(--aonAccountingColor);
+	background-color: white;
 }
 
 .aonSearchBoxBeta {
@@ -426,6 +426,11 @@ h1 {
 
 .aonMenuItemSpan {
 	color: white;
+}
+
+#aonMenuItemSpanPyG,
+#aonAccountingSidenavPyGicon {
+	color: black;
 }
 
 .aonAppMenuSidenavListSelected {

@@ -410,9 +410,7 @@ h1 {
 	color: white;
 }
 
-.material-icons aonHelpI,
-.material-icons mailIcon,
-.material-icons configPanelLanguageI{
+.material-icons {
 	color: white; 
 }
 

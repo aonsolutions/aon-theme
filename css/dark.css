@@ -428,9 +428,12 @@ h1 {
 	color: white;
 }
 
-#aonMenuItemSpanPyG,
-#aonAccountingSidenavPyGicon .material-icons {
+#aonMenuItemSpanPyG {
 	color: black;
+}
+
+#aonAccountingSidenavPyGicon .material-icons {
+	--aonAccounting: black;
 }
 
 .aonAppMenuSidenavListSelected {

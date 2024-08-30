@@ -218,6 +218,11 @@ h1 {
 	border-color: white;
 }
 
+.aonCheckbox > span::before {
+    border-color: white;
+}
+
+
 .aonNewLogo{
  	background-image: url("../image/aon-white-logo.svg");  
 }

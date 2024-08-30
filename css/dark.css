@@ -401,5 +401,8 @@ h1 {
 	color: white ! important;
 }
 
-
+.aonLoginButton:hover {
+  background-color: black;
+  color: var(--white-base);
+}
 

@@ -422,5 +422,37 @@ h1 {
 	background-color: black;
 }
 
+#aon-notesSidenav .material-icons {
+	--aonNote: white;
+}
+
+#aonInvoiceSidenav .material-icons {
+	--aonInvoice: white;
+}
+
+#aonAccountingSidenav .material-icons {
+	--aonAccounting: white;
+}
+
+#aonFiscalSidenav .material-icons {
+	--aonFiscal: white;
+}
+
+#aonLaboralSidenav aon-icon,
+#aonLaboralSidenav .material-icons {
+	--aonPayroll: white;
+}
+
+#aonMessengerSidenav .material-icons {
+	--aonMessenger: white;
+}
+
+#aonDocumentalSidenav .material-icons {
+	--aonDocumental: white;
+}
+
+#aonSigninSidenav .material-icons {
+	--aonTimecontrol: white;
+}
 
 

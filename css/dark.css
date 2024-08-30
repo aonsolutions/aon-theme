@@ -347,14 +347,9 @@ h1 {
   	color: white;
 }
 
-.notificationPanelAllDiv{
+/* .notificationPanelAllDiv{
   	color: white;
-}
-
-.notificationPanelAllDiv:hover{
-  	background-color: rgba(225,225,227,1);
-  	color: black;
-}
+} */
 
 .notificationPanelRowPrincipalDiv,
 .notificationPanelRowPrincipalDiv .material-icons {
@@ -415,7 +410,7 @@ h1 {
 }
 
 #aonNotificationPanelOpenButtonIcon:hover{
-	background-color: white;
+	background-color: rgba(225,225,227,1);
 	color: black;
 }
 

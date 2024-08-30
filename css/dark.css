@@ -394,7 +394,7 @@ h1 {
 }
 
 .aonLink {
-	color: white;
+	color: white ! important;
 }
 
 

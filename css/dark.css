@@ -467,6 +467,8 @@ h1 {
 
 #aonAccountingSidenavoptionsSelect,
 #aonAccountingSidenavoptionsViewSelect,
-#aonAccountingSidenavoptionsDetailSelect {
+#aonAccountingSidenavoptionsDetailSelect,
+#aonFiscalSidenavPeriodoSelect,
+#aonFiscalSidenavEjercicioSelect {
 	color: white;
 }

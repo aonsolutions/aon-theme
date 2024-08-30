@@ -414,7 +414,7 @@ h1 {
 	color: white; 
 }
 
-.aonNotificationPanelOpenButtonIcon:hover{
+#aonNotificationPanelOpenButtonIcon:hover{
 	background-color: white;
 	color: black;
 }

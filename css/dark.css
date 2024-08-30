@@ -222,6 +222,9 @@ h1 {
     border-color: white;
 }
 
+.aonTableTr aonTableTrChecked {
+	background-color: black;
+}
 
 .aonNewLogo{
  	background-image: url("../image/aon-white-logo.svg");  

@@ -472,3 +472,7 @@ h1 {
 #aonFiscalSidenavEjercicioSelect {
 	color: white;
 }
+
+.aonInputBoxLabel > input {
+	background-color: var(--aonContentBeta);
+}

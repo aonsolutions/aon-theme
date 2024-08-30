@@ -246,3 +246,147 @@ h1 {
 	  color: white;
 }
 
+.aonLoginLogo{
+ 	  background-image: url("../image/aon-white-logo.svg");
+}
+
+.aonHeaderStart, .aonMenuLeftopStart,
+.aonHeaderHome, .aonMenuLeftopHome,
+.aonHeaderApplications, .aonMenuLeftopApplications,
+.aonHeaderNote, .aonMenuLeftopNote,
+.aonHeaderFiscal, .aonMenuLeftopFiscal,
+.aonHeaderPayroll, .aonMenuLeftopPayroll,
+.aonHeaderInvoice, .aonMenuLeftopInvoice,
+.aonHeaderDocumental, .aonMenuLeftopDocumental,
+.aonHeaderAccounting, .aonMenuLeftopAccounting,
+.aonHeaderTimecontrol, .aonMenuLeftopTimecontrol,
+.aonHeaderMessenger, .aonMenuLeftopMessenger,
+.aonHeaderOffice, .aonMenuLeftopOffice,
+.aonHeaderGarage, .aonMenuLeftopGarage,
+.aonHeaderAcademy, .aonMenuLeftopAcademy,
+.aonHeaderComerce, .aonMenuLeftopComerce,
+.aonHeaderComercialMenu, .aonMenuLeftopComercialMenu,
+.aonHeaderManagementMenu, .aonMenuLeftopManagementMenu,
+.aonHeaderTreasuryMenu, .aonMenuLeftopTreasuryMenu,
+.aonHeaderWarehouseMenu, .aonMenuLeftopWarehouseMenu,
+.aonHeaderGroupwareMenu, .aonMenuLeftopGroupwareMenu ,
+.aonHeaderAccountingMenu, .aonMenuLeftopAccountingMenu,
+.aonHeaderFiscalMenu, .aonMenuLeftopFiscalMenu,
+.aonHeaderPayrollMenu, .aonMenuLeftopPayrollMenu,
+.aonHeaderMarketingMenu, .aonMenuLeftopMarketingMenu {
+	background-color: var(--aonHeaderBackgroundColor);
+}
+
+.aonHeader #aonHeaderCompanyName,
+.aonHeader .material-icons {
+	color: white;
+}
+
+#aonHeaderCompanyList:hover,
+#aonHeaderHelp:hover, 
+#aonHeaderConfig:hover, 
+#aonHeaderNotification:hover, 
+#aonHeaderUser:hover{
+	background-color: rgba(255,255,255,0.3);
+  	border-radius: 100px;
+}
+
+.aonMenuLeftopHome .material-symbols-outlined, 
+.aonMenuLeftopStart .material-symbols-outlined, 
+.aonMenuLeftopApplications .material-symbols-outlined{
+	color: white;
+}
+
+.aonHeaderHome  #aonHeaderCompanyName,
+.aonHeaderApplications  #aonHeaderCompanyName,
+.aonHeaderStart #aonHeaderCompanyName {
+	color: var(--aonWhite);
+}
+
+#new:hover,
+#home:hover,
+#invoice:hover,
+#documental:hover,
+#accounting:hover,
+#fiscal:hover,
+#payroll:hover,
+#timecontrol:hover,
+#note:hover,
+#messenger:hover,
+#office:hover,
+#garage:hover,
+#academy:hover,
+#comerce:hover,
+#comercialMenu:hover,
+#managementMenu:hover,
+#treasuryMenu:hover,
+#warehouseMenu:hover,
+#groupwareMenu:hover,
+#accountingMenu:hover,
+#fiscalMenu:hover,
+#payrollMenu:hover,
+#marketingMenu:hover,
+#applications:hover{
+  	background-color: rgba(255,255,255,0.1);
+}
+
+#aonHeaderCompanyList:hover,
+#aonHeaderHelp:hover,
+#aonHeaderConfig:hover,
+#aonHeaderNotification:hover,
+#aonHeaderUser:hover{
+  	background-color: rgba(255,255,255,0.1);
+  	border-radius: 100px;
+}
+
+.graphicsDashBoardSummary{
+  	color: white;
+}
+
+.aonHelpSpan{
+  	color: white;
+}
+
+.notificationPanelAllDiv{
+  	color: white;
+}
+
+.notificationPanelAllDiv:hover{
+  	background-color: rgba(225,225,227,1);
+  	color: black;
+}
+
+.notificationPanelRowPrincipalDiv,
+.notificationPanelRowPrincipalDiv .material-icons {
+	color: white;
+}
+
+.notificationPanelRowPrincipalDiv:hover{
+  	background-color: rgba(225, 225, 227, 1);
+  	color: black;
+  	.material-icons {
+		color: black;
+  	}
+}
+
+.aonNewDesktopAppDiv{
+  	color: white;
+}
+
+.aonNewMenuAppIcon{
+	color: white;
+}
+
+.aonConfigAppsTitle,
+.aonConfigDarkTitle,
+.aonConfigBrandTitle,
+.aonConfigTopNavTitle,
+.aonConfigSideNavTitle {
+	color: white;
+}
+
+
+
+
+
+

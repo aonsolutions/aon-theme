@@ -102,7 +102,7 @@ h1 {
 }
 
 .sidenavHover:hover{
-	background-color: var(--aonLightBlue);
+	background-color: black;
 }
 
 .aonHeader {
@@ -413,5 +413,11 @@ h1 {
 	background-color: rgba(225,225,227,1);
 	color: black;
 }
+
+.aonMenuItemSpan {
+	color: white;
+}
+
+
 
 

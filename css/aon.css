@@ -147,8 +147,11 @@
 .aonHeaderNote #aonHeaderCompanyName, 
 .aonHeaderNote .material-icons,
 .aonMenuLeftopNote .material-symbols-outlined {
-  	--aonIcon: white;
   	color: white;
+}
+
+.aonHeaderNote {
+	--aonIcon: white;
 }
 
 /**

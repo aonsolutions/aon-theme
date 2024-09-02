@@ -120,11 +120,11 @@
 }
 
 .aonLoginButton {
-	border: 1px solid var(--aonBlue);
+	border: 1px solid var(--aonBlack);
 }
 
 .aonLoginButton:hover {
-	background-color: var(--aonBlue);
+	background-color: var(--aonBlack);
 }
 
 .aonMagicButton {

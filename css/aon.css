@@ -133,13 +133,22 @@
 }
 
 .aonHeaderInvoice, .aonMenuLeftopInvoice,
+.aonHeaderDocumental, .aonMenuLeftopDocumental,
 .aonHeaderAccounting, .aonMenuLeftopAccounting,
 .aonHeaderFiscal, .aonMenuLeftopFiscal,
 .aonHeaderPayroll, .aonMenuLeftopPayroll,
 .aonHeaderTimecontrol, .aonMenuLeftopTimecontrol,
 .aonHeaderNote, .aonMenuLeftopNote,
 .aonHeaderMessenger, .aonMenuLeftopMessenger{
-  background-color: var(--aonBlue);
+  	background-color: var(--aonBlue);
+}
+
+.aonHeaderNote .aonHeaderAppSpan,
+.aonHeaderNote #aonHeaderCompanyName, 
+.aonHeaderNote .material-icons,
+.aonMenuLeftopNote .material-symbols-outlined {
+  	--aonIcon: rgb(95, 99, 104);
+  	color: white;
 }
 
 /**

@@ -107,12 +107,24 @@
 }
 
 #applications:hover {
-  background-size: cover ;
-  background-image: url("../image/aon-background.webp");
+  	background-size: cover ;
+  	background-image: url("../image/aon-background.webp");
 }
 
 #applications:hover #aonMenuListAppImgTop-applications {
-  color: white;
+ 	color: white;
+}
+
+#aonLoginLanguageButtonIcon {
+	color: white;
+}
+
+.aonLoginButton {
+	border: 1px solid var(--aonBlue);
+}
+
+.aonLoginButton:hover {
+	background-color: var(--aonBlue);
 }
 
 /**

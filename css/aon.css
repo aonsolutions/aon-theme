@@ -70,7 +70,7 @@
   color: rgb(95, 99, 104);
 }
 
-#aon-notesSidenav .material-icons {
+/* #aon-notesSidenav .material-icons {
 	--aonNote: rgb(95, 99, 104);
 }
 
@@ -104,7 +104,7 @@
 
 #aonSigninSidenav .material-icons {
 	--aonTimecontrol: rgb(95, 99, 104);
-}
+} */
 
 #applications:hover {
   	background-size: cover ;

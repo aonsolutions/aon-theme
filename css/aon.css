@@ -127,6 +127,15 @@
 	background-color: var(--aonBlue);
 }
 
+.aonMagicButton {
+  	border: 1px solid var(--aonBlue);
+  	background-color: var(--aonBlue);
+}
+
+.aonMagicButton:hover {
+  	background-color: var(--aonBlue);
+}
+
 /**
 Important. Keep this rule at the end of file 
 **/

@@ -132,6 +132,16 @@
   	background-color: var(--aonBlue);
 }
 
+.aonHeaderInvoice, .aonMenuLeftopInvoice,
+.aonHeaderAccounting, .aonMenuLeftopAccounting,
+.aonHeaderFiscal, .aonMenuLeftopFiscal,
+.aonHeaderPayroll, .aonMenuLeftopPayroll,
+.aonHeaderTimecontrol, .aonMenuLeftopTimecontrol,
+.aonHeaderNote, .aonMenuLeftopNote,
+.aonHeaderMessenger, .aonMenuLeftopMessenger{
+  background-color: var(--aonBlue);
+}
+
 /**
 Important. Keep this rule at the end of file 
 **/

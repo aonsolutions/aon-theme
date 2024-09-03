@@ -131,6 +131,7 @@
 .aonMagicButton {
   	border: 1px solid var(--aonBlack);
   	background-color: var(--white-base);
+	color: var(--aonBlack);
 }
 
 .aonMagicButton:hover{

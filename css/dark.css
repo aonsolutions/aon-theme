@@ -476,3 +476,14 @@ h1 {
 .aonInputBoxLabel > input {
 	background-color: var(--aonContentBeta);
 }
+
+#divCompanyLogoForm {
+  display: none;
+}
+
+/**
+Important. Keep this rule at the end of file 
+**/
+.aonTheme {
+	--aon-theme: 'DARK';
+}

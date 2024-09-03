@@ -1,6 +1,5 @@
 .root{
-	--favicon: ../image/favicon
-		.png;
+	--favicon: ../image/favicon.png;
 }
 
 .rootPanel {

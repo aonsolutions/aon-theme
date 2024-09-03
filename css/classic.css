@@ -15,7 +15,7 @@
 .aonHeaderTimecontrol, .aonMenuLeftopTimecontrol,
 .aonHeaderNote, .aonMenuLeftopNote,
 .aonHeaderMessenger, .aonMenuLeftopMessenger{
-  background-color: var(--aonSideNavColor);
+  background-color: var(--aonBlue);
 }
 
 #applications:hover {
@@ -57,6 +57,11 @@
 
 #aonSigninSidenav .material-icons {
 	--aonTimecontrol: rgb(95, 99, 104);
+}
+
+.aonSideNavFiscalCircle {
+  border: 1px solid rgb(95, 99, 104);
+  color: rgb(95, 99, 104);
 }
 
 #aonMenuListAppImgTop-fiscal {

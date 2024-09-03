@@ -56,21 +56,23 @@
 	--aonTimecontrol: rgb(95, 99, 104);
 }
 
-.aonSideNavFiscalCircle {
-  border: 1px solid rgb(95, 99, 104);
-  color: rgb(95, 99, 104);
+
+
+.aonAppMenuSidenavListSelected {
+	background-color: rgb(95, 99, 104);
+	color: rgb(95, 99, 104);
 }
 
-#aonSideNavFiscalCircle :focus{
-  color: white;
-  background: rgb(95, 99, 104);
+.aonAppMenuSidenavListSelected div {
+  	background-color: rgb(95, 99, 104);
+  	border: 1px solid rgb(95, 99, 104);
+  	color: white;
 }
 
 #aonMenuListAppImgTop-fiscal {
 	margin-right: 4px;
 	scale: 1;
 }
-
 
 
 /**

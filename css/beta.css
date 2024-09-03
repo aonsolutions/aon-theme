@@ -1,5 +1,9 @@
 @import url(aon.css);
 
+:root {
+	--aonMenuTopnav: true;
+}
+	
 .aonConfigTopNav {
   display: flex;
 }
@@ -8,6 +12,7 @@
 #aonMenuBar-comercialMenu,
 #aonMenuBar-warehouseMenu,
 #aonMenuBar-groupwareMenu,
-#aonMenuBar-managementMenu{
+#aonMenuBar-managementMenu,
+#aonMenuBar-marketingMenu {
   display: none;
 }

@@ -121,6 +121,7 @@
 .aonLoginButton {
 	background-color: var(--aonBlue);
 	border: 1px solid var(--aonBlue);
+	color: var(--white-base);
 }
 
 .aonLoginButton:hover {

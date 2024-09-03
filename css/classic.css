@@ -56,11 +56,9 @@
 	--aonTimecontrol: rgb(95, 99, 104);
 }
 
-
-
-.aonAppMenuSidenavListSelected {
-	background-color: rgb(95, 99, 104);
-	color: rgb(95, 99, 104);
+.aonSideNavFiscalCircle{
+  border: 1px solid rgb(95, 99, 104);
+  color: rgb(95, 99, 104);
 }
 
 .aonAppMenuSidenavListSelected div {

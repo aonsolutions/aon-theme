@@ -40,11 +40,6 @@
   color: var(--aonWhite);
 }
 
-.aonLoginSubTitle::after {
-	content: 'Accede a tu cuenta de AON';
-}
-
-
 .aonMenuSidenav{
 	--aonNote: rgb(255, 228, 104);
 }

@@ -119,16 +119,22 @@
 }
 
 .aonLoginButton {
-	border: 1px solid var(--aonBlack);
+	background-color: var(--aonBlue)
+	border: 1px solid var(--aonBlue);
 }
 
 .aonLoginButton:hover {
 	background-color: var(--aonBlack);
+	border: 1px solid var(--aonBlack);
 }
 
 .aonMagicButton {
-  	border: 1px solid var(--aonBlue);
-  	background-color: var(--aonBlue);
+  	border: 1px solid var(--aonBlack);
+  	background-color: var(--white-base);
+}
+
+.aonMagicButton:hover{
+  	background-color: var(--aonBlack);
 }
 
 .aonHeaderInvoice, .aonMenuLeftopInvoice,

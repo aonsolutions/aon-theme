@@ -118,27 +118,6 @@
 	color: white;
 }
 
-.aonLoginButton {
-	background-color: var(--aonBlue);
-	border: 1px solid var(--aonBlue);
-	color: var(--white-base);
-}
-
-.aonLoginButton:hover {
-	background-color: var(--aonBlack);
-	border: 1px solid var(--aonBlack);
-}
-
-.aonMagicButton {
-  	border: 1px solid var(--aonBlack);
-  	background-color: var(--white-base);
-	color: var(--aonBlack);
-}
-
-.aonMagicButton:hover{
-  	background-color: var(--aonBlack);
-	color: var(--white-base);
-}
 
 .aonHeaderInvoice, .aonMenuLeftopInvoice,
 .aonHeaderDocumental, .aonMenuLeftopDocumental,

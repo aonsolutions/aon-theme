@@ -40,15 +40,6 @@
   color: var(--aonWhite);
 }
 
-.aonMenuSidenav{
-	--aonNote: rgb(255, 228, 104);
-}
-
-.rootPanel,
-.aonHeader,
-.aonMenuLeftop {
-	--aonNote: rgb(255, 248, 184);
-}
 
 .aonHeaderNote {
 	--aonIcon: rgb(95, 99, 104);

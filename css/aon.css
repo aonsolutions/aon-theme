@@ -1,3 +1,7 @@
+.root{
+	--favicon: ../faviconColors.png;
+}
+
 .rootPanel {
   z-index: 3;	
   padding-left: 2px;

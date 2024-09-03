@@ -1,8 +1,5 @@
 :root {
 	--aonSideNavColor: #75163F; 
-	--accountingSideNavSymbol: CALCULATE;
-  	--fiscalSideNavSymbol: EURO_SYMBOL;
-	--payrollSideNavSymbol: GROUP;
 	--favicon: ../faviconColors.png;
 
 
@@ -64,10 +61,17 @@
   color: rgb(95, 99, 104);
 }
 
+#aonSideNavFiscalCircle :focus{
+  color: white;
+  background: rgb(95, 99, 104);
+}
+
 #aonMenuListAppImgTop-fiscal {
 	margin-right: 4px;
 	scale: 1;
 }
+
+
 
 /**
 Important. Keep this rule at the end of file 

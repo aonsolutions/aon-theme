@@ -1,9 +1,7 @@
 :root {
-	--aonSideNavColor: #75163F; 
 	--favicon: ../faviconColors.png;
-
-
 }
+
 .aonHeaderDocumental, .aonMenuLeftopDocumental,
 .aonHeaderInvoice, .aonMenuLeftopInvoice,
 .aonHeaderAccounting, .aonMenuLeftopAccounting,
@@ -15,13 +13,13 @@
   background-color: var(--aonBlue);
 }
 
-#applications:hover {
+/* #applications:hover {
   background-size: cover ;
   background-image: url("../image/aon-background.webp");
   #aonMenuListAppImgTop-applications {
 	  color: white;
   }
-}
+} */
 
 .aonSideNavFiscalCircle{
   border: 1px solid var(--aonFiscal);

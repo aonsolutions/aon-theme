@@ -1,2 +1,38 @@
 :root {
-    
+	--favicon: ../faviconColors.png;
+}
+
+.aonHeaderDocumental, .aonMenuLeftopDocumental {
+        background-color: var(--aonDocumental);
+}
+
+.aonHeaderInvoice, .aonMenuLeftopInvoice {
+        background-color: var(--aonInvoice);
+}
+
+.aonHeaderAccounting, .aonMenuLeftopAccounting {
+        background-color: var(--aonBlue);
+}
+
+.aonHeaderFiscal, .aonMenuLeftopFiscal {
+        background-color: var(--aonFiscal);
+}
+
+.aonHeaderPayroll, .aonMenuLeftopPayroll {
+        background-color: var(--aonPayroll);
+}
+
+.aonHeaderTimecontrol, .aonMenuLeftopTimecontrol {
+        background-color: var(--aonTimecontrol);
+}
+
+.aonHeaderNote, .aonMenuLeftopNote {
+        background-color: var(--aonNote);
+}
+
+.aonHeaderMessenger, .aonMenuLeftopMessenger{
+        background-color: var(--aonMessenger);
+}    
+
+
+

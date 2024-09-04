@@ -416,12 +416,6 @@
 	display:none;
 }
 
-.aonLoginSubTitle::after {
-	color: var(--aonWhite);
-	font-size: 50px;
-	content: 'Accede a tu cuenta de ETL';
-	font-family: 'Gotcha Standup', Helvetica;
-}
 .aonDividerSpan {
 	color: var(--aonWhite);
 	background-color: transparent;

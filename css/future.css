@@ -1,5 +1,8 @@
 :root {
 	--favicon: ../faviconColors.png;
+	--accountingSideNavSymbol: CALCULATE;
+  	--fiscalSideNavSymbol: EURO_SYMBOL;
+	--payrollSideNavSymbol: GROUP;
 }
 
 .aonHeaderDocumental, .aonMenuLeftopDocumental {
@@ -34,5 +37,35 @@
         background-color: var(--aonMessenger);
 }    
 
+#applications:hover {
+  background-size: cover ;
+  background-image: url("../image/aon-background.webp");
+  #aonMenuListAppImgTop-applications {
+	  color: white;
+  }
+}
 
+.aonSideNavFiscalCircle{
+  border: 1px solid var(--aonFiscal);
+  color: var(--aonFiscal);
+}
+
+.aonAppMenuSidenavListSelected div {
+  	background-color: var(--aonFiscal);
+  	border: 1px solid var(--aonFiscal);
+  	color: white;
+}
+
+#aonMenuListAppImgTop-fiscal {
+	margin-right: 4px;
+	scale: 1;
+}
+
+
+/**
+Important. Keep this rule at the end of file 
+**/
+.aonTheme {
+	--aon-theme: 'FUTURE';
+}
 

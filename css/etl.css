@@ -436,6 +436,12 @@
 	display:none;
 }
 
+.aonLoginSubTitle {
+	color: var(--aonWhite)!important;
+	font-size: 50px!important;
+	font-family: 'Gotcha Standup', Helvetica!important;
+}
+
 /**
 Important. Keep this rule at the end of file 
 **/

@@ -23,47 +23,14 @@
   }
 }
 
-#aon-notesSidenav .material-icons {
-	--aonNote: rgb(95, 99, 104);
-}
-
-#aonInvoiceSidenav .material-icons {
-	--aonInvoice: rgb(95, 99, 104);
-}
-
-#aonAccountingSidenav .material-icons {
-	--aonAccounting: rgb(95, 99, 104);
-}
-
-#aonFiscalSidenav .material-icons {
-	--aonFiscal: rgb(95, 99, 104);
-}
-
-#aonLaboralSidenav aon-icon,
-#aonLaboralSidenav .material-icons {
-	--aonPayroll: rgb(95, 99, 104);
-}
-
-#aonMessengerSidenav .material-icons {
-	--aonMessenger: rgb(95, 99, 104);
-}
-
-#aonDocumentalSidenav .material-icons {
-	--aonDocumental: rgb(95, 99, 104);
-}
-
-#aonSigninSidenav .material-icons {
-	--aonTimecontrol: rgb(95, 99, 104);
-}
-
 .aonSideNavFiscalCircle{
-  border: 1px solid rgb(95, 99, 104);
-  color: rgb(95, 99, 104);
+  border: 1px solid var(--aonFiscal);
+  color: var(--aonFiscal);
 }
 
 .aonAppMenuSidenavListSelected div {
-  	background-color: rgb(95, 99, 104);
-  	border: 1px solid rgb(95, 99, 104);
+  	background-color: var(--aonFiscal);
+  	border: 1px solid var(--aonFiscal);
   	color: white;
 }
 

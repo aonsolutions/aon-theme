@@ -14,7 +14,7 @@
 }
 
 .aonHeaderAccounting, .aonMenuLeftopAccounting {
-        background-color: var(--aonBlue);
+        background-color: var(--aonAccounting);
 }
 
 .aonHeaderFiscal, .aonMenuLeftopFiscal {

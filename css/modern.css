@@ -13,13 +13,13 @@
   background-color: var(--aonBlue);
 }
 
-/* #applications:hover {
+#applications:hover {
   background-size: cover ;
   background-image: url("../image/aon-background.webp");
   #aonMenuListAppImgTop-applications {
 	  color: white;
   }
-} */
+}
 
 .aonSideNavFiscalCircle{
   border: 1px solid var(--aonFiscal);
@@ -32,15 +32,10 @@
   	color: white;
 }
 
-#aonMenuListAppImgTop-fiscal {
-	margin-right: 4px;
-	scale: 1;
-}
-
 
 /**
 Important. Keep this rule at the end of file 
 **/
 .aonTheme {
-	--aon-theme: 'CLASSIC';
+	--aon-theme: 'MODERN';
 }

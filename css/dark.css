@@ -1,4 +1,5 @@
 :root {
+	--favicon: ../faviconColors.png;
 
   	--aonHeaderButtonColor: var(--aonWhite);
 	

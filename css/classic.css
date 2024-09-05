@@ -71,13 +71,13 @@
 }
 
 .aonSideNavFiscalCircle{
-  border: 1px solid var(--aonFiscal);
-  color: var(--aonFiscal);
+  border: 1px solid rgb(95, 99, 104);
+  color: rgb(95, 99, 104);
 }
 
 .aonAppMenuSidenavListSelected div {
-  	background-color: var(--aonFiscal);
-  	border: 1px solid var(--aonFiscal);
+  	background-color: rgb(95, 99, 104);
+  	border: 1px solid rgb(95, 99, 104);
   	color: white;
 }
 

@@ -12,6 +12,10 @@
 
 }
 
+#aonConfigThemesCard{
+	display: none;
+}
+
 .aonHeader {
 	overflow: hidden;
 	background-color: black;

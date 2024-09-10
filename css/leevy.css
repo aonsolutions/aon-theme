@@ -257,6 +257,16 @@
 	--aonTimecontrol: rgb(95, 99, 104);
 }
 
+#aonLoginLanguageButtonIcon {
+	color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .aonLogin {
+	background: white;
+    }
+}
+
 /**
 Important. Keep this rule at the end of file 
 **/

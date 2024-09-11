@@ -159,6 +159,7 @@
   height: 3rem;
   cursor: pointer;
   margin-top: 1rem;
+  color: black;
 }
 
 .aonLoginButton:hover {

@@ -272,7 +272,7 @@
     .aonLogin {
 	background: white;
 	
-    .aonLogin #divForm {
+    #divForm {
 	padding-left: 0%;
     }
 }

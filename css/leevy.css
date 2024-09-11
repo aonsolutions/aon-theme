@@ -150,27 +150,34 @@
 }
 
 .aonLoginButton {
-  width: 100%;
-  background-color: var(--white-base);
-  border-radius: 4px;
-  border: 1px solid var(--gray-90);
-  font-family: var(--roboto-button-font-family);
-  letter-spacing: var(--roboto-button-letter-spacing);
-  height: 3rem;
-  cursor: pointer;
-  margin-top: 1rem;
+  background-color: var(--leevyBlue);
+  border: 1px solid var(--leevyBlue);
+
 }
 
 .aonLoginButton:hover {
-  background-color: var(--leevyBlue);
-  color: var(--white-base);
+  background-color: var(--white-base);
+  border: 1px solid var(--leevyBlue);
+  color: var(--leevyBlue);
 }
 
-.aonMagicButton,
-.aonMagicButton:hover {
-	color: white;
-	border-color: var(--leevyBlue);
-	background-color: var(--leevyBlue);
+.aonMagicButton {
+  background-color: var(--white-base);
+  color: var(--leevyBlue);  
+  border: 1px solid var(--leevyBlue);
+
+}
+.aonMagicButton:focus, 
+.aonMagicButton:hover{
+  background-color: var(--leevyBlue);
+  color: var(--white-base);
+  border: 1px solid var(--leevyBlue);
+}
+
+.aonMagicButtonHover{
+  background-color: var(--white-base);
+  color: var(--leevyBlue);  
+  border: 1px solid var(--leevyBlue);
 }
 
 .aonLink:after {

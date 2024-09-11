@@ -447,6 +447,10 @@
 	font-family: 'Gotcha Standup', Helvetica!important;
 }
 
+#aonLoginLanguageButtonIcon {
+	color: var(--etlRed);
+}
+
 /**
 Important. Keep this rule at the end of file 
 **/

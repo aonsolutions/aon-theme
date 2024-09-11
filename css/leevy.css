@@ -271,13 +271,11 @@
 @media screen and (max-width: 768px) {
     .aonLogin {
 	background: white;
-    }
-
-    .aonLoginForm {
 	overflow: scroll;
 	scrollbar-width: none;
     }
-    .aonLoginForm::-webkit-scrollbar {
+	
+    .aonLogin::-webkit-scrollbar {
         display: none; 
     }
 	

@@ -193,6 +193,23 @@
 	background-color: rgb(240,240,240);
 }
 
+@media screen and (max-width: 768px) {
+    .aonLogin {
+	background: white;
+	
+    #divForm {
+	padding-left: 0%;
+    }
+
+    .aonLoginFormContent{
+        width: 90%;
+    }
+
+    .aonNewLoginDivMobiles {
+	display: none;
+    }
+}
+
 /**
 Important. Keep this rule at the end of file 
 **/

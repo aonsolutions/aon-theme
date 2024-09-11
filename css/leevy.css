@@ -279,6 +279,10 @@
     .aonLoginFormContent{
         width: 90%;
     }
+
+    .aonNewLoginDivMobiles {
+	display: none;
+    }
 }
 
 

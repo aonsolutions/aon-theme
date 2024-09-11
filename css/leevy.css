@@ -271,19 +271,22 @@
 @media screen and (max-width: 768px) {
     .aonLogin {
 	background: white;
-	overflow: scroll;
-	scrollbar-width: none;
-    }
-	
-    .aonLogin::-webkit-scrollbar {
-        display: none; 
-    }
 	
     .aonLogin #divForm {
 	padding-left: 0%;
     }
 
+    .aonLoginFormContent{
+        width: 90%;
+    }
 }
+	
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .aonLoginFormContent{
+        width: 60%;
+    }
+}
+
 
 /**
 Important. Keep this rule at the end of file 

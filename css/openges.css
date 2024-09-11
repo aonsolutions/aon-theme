@@ -193,6 +193,10 @@
 	background-color: rgb(240,240,240);
 }
 
+#aonLoginLanguageButtonIcon {
+	color: white;
+}
+
 @media screen and (max-width: 768px) {
     .aonLogin {
 	background: white;

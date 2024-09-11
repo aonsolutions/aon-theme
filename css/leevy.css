@@ -271,7 +271,7 @@
 @media screen and (max-width: 768px) {
     .aonLogin {
 	background: white;
-	overflow: auto;
+	overflow: scroll;
     }
     .aonLogin #divForm {
 	padding-left: 0%;

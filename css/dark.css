@@ -117,7 +117,7 @@ h1 {
 }
 
 .aonLogo {
-	background-image: url("../../assets/aon-white-logo.svg");
+	background-image: url("../image/aon-white-logo.svg");
 }
 
 .sidenavHover:hover{
@@ -246,7 +246,7 @@ h1 {
 }
 
 .aonNewLogo{
- 	background-image: url("../../assets/aon-white-logo.svg");  
+ 	background-image: url("../image/aon-white-logo.svg");  
 }
 
 .aonRootGradiantHeader {
@@ -274,7 +274,7 @@ h1 {
 }
 
 .aonLoginLogo{
- 	background-image: url("../../assets/aon-white-logo.svg");
+ 	background-image: url("../image/aon-white-logo.svg");
 }
 
 .aonHeaderStart, .aonMenuLeftopStart,

@@ -275,6 +275,10 @@
     #divForm {
 	padding-left: 0%;
     }
+
+    .aonLoginFormContent{
+        width: 90%;
+    }
 }
 
 

@@ -451,6 +451,25 @@
 	color: var(--etlRed);
 }
 
+@media screen and (max-width: 768px) {
+    .aonLoginFormContent{
+        width: 90%;
+    }
+
+    .aonNewLoginDivMobiles {
+	display: none;
+    }
+
+    .aonLogonSubTitle {
+	font-size: 26px !important;
+	margin-bottom: -40px:
+    }
+
+    .aonLoginTitle {
+	margin-top: 120px;
+    }
+}
+
 /**
 Important. Keep this rule at the end of file 
 **/

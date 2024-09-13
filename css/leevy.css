@@ -212,6 +212,11 @@
 	display:none;
 }
 
+#aonContactIcon3,
+#aonContactIcon4 {
+	display: none;
+}
+
 #aonLoginLanguageSpanToolbar {
 	color: var(--aonWhite);
 }

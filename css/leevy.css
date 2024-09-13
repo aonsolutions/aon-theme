@@ -189,11 +189,11 @@
 }
 
 .aonWeekSchedule:after{
-	content: 'Lunes a jueves de 9:00 a 18:00';
+	content: 'Lunes a jueves de 8:00 a 15:00';
 }
 
 .aonWeekFridaySchedule:after{
-	content: 'Viernes de 9:00 a 14:00';
+	content: 'Viernes de 8:00 a 14:00';
 }
 
 .aonSupportTelephone:after {
@@ -201,15 +201,15 @@
 }
 
 .aonSupportUsersEmail:after {
-	content: 'info@leevy.es';	
+	content: 'clientes@leevy.es';	
 }
 
 .aonSupportSalesEmail:after {
-	content: 'comercial@leevy.es';
+	display:none;
 }
 
 .aonSupportAdminEmail:after {
-	content: 'administración@leevy.es';	
+	display:none;
 }
 
 #aonLoginLanguageSpanToolbar {

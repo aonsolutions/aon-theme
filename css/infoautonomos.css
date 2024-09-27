@@ -70,6 +70,7 @@
     	width: 165px;
     	height: 48px;
    	cursor: pointer;
+	margin-left: 62px;
     	background-size: contain;
     	background-position: center;
     	background-repeat: no-repeat;
@@ -88,7 +89,7 @@
 
 #aonHeaderHelp {
 	display:none;
-
+}
 
 /**
 Important. Keep this rule at the end of file 

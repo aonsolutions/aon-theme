@@ -5,6 +5,11 @@
 	--payrollSideNavSymbol: GROUP;
 }
 
+
+#aonConfigThemesCard{
+	display: none;
+}
+
 .aonHeaderDocumental, .aonMenuLeftopDocumental {
         background-color: var(--aonDocumental);
 }

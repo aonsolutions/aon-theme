@@ -67,24 +67,27 @@
 }
 
 .aonNewLogo {
-    width: 165px;
-    height: 48px;
-    cursor: pointer;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("../image/Infoautonomos-white.svg");
+    	width: 165px;
+    	height: 48px;
+   	cursor: pointer;
+    	background-size: contain;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-image: url("../image/Infoautonomos-white.svg");
 }
 
 .aonLoginLogo{
-  width: 175px;
-  height: 50px;
-  cursor: pointer;
-  background-size: 170px 65px;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-image: url("../image/Infoautonomos.svg");
+  	width: 175px;
+  	height: 50px;
+  	cursor: pointer;
+  	background-size: 170px 65px;
+  	background-position: right;
+  	background-repeat: no-repeat;
+  	background-image: url("../image/Infoautonomos.svg");
 }
+
+#aonHeaderHelp {
+	display:none;
 
 
 /**

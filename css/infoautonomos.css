@@ -66,6 +66,18 @@
 	scale: 1;
 }
 
+.aonNewLogo {
+    width: 100px;
+    height: 48px;
+    cursor: pointer;
+    padding: 0 0 0 68px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../image/Infoautonomos.svg");
+}
+
+
 
 /**
 Important. Keep this rule at the end of file 

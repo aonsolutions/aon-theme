@@ -105,8 +105,16 @@
 	--aonIcon: var(--aonDocumental);
 }
 
-#aon_new_accounting {
-	--aonIcon: var(--aonAccounting);
+#aon_new_timecontrol {
+	--aonIcon: var(--aonTimeControl);
+}
+
+#aon_new_note {
+	--aonIcon: var(--aonNote);
+}
+
+#aon_new_messenger {
+	--aonIcon: var(--aonMessenger);
 }
 
 /**

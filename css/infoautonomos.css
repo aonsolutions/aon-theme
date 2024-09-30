@@ -3,6 +3,7 @@
 	--accountingSideNavSymbol: CALCULATE;
   	--fiscalSideNavSymbol: EURO_SYMBOL;
 	--payrollSideNavSymbol: GROUP;
+	--infoautonomosColor: white;
 }
 
 
@@ -10,44 +11,32 @@
 	display: none;
 }
 
-.aonHeaderDocumental, .aonMenuLeftopDocumental {
-        background-color: var(--aonDocumental);
+.aonHeader,
+.aonMenuLeftop{
+	overflow: hidden;
+	background-color: var(--infoautonomosColor);
 }
 
-.aonHeaderInvoice, .aonMenuLeftopInvoice {
-        background-color: var(--aonInvoice);
+.aonHeader #aonHeaderCompanyName,
+.aonHeader .material-icons {
+	color: var(--gray-50);
 }
 
-.aonHeaderAccounting, .aonMenuLeftopAccounting {
-        background-color: var(--aonAccounting);
+.aonHeaderAppSpan{
+	color: black;
 }
 
-.aonHeaderFiscal, .aonMenuLeftopFiscal {
-        background-color: var(--aonFiscal);
+#aonHeaderCompanyList:hover,
+#aonHeaderHelp:hover, 
+#aonHeaderConfig:hover, 
+#aonHeaderNotification:hover, 
+#aonHeaderUser:hover{
+	background-color: rgba(255,255,255,0.3);
+  	border-radius: 100px;
 }
 
-.aonHeaderPayroll, .aonMenuLeftopPayroll {
-        background-color: var(--aonPayroll);
-}
-
-.aonHeaderTimecontrol, .aonMenuLeftopTimecontrol {
-        background-color: var(--aonTimecontrol);
-}
-
-.aonHeaderNote, .aonMenuLeftopNote {
-        background-color: var(--aonNote);
-}
-
-.aonHeaderMessenger, .aonMenuLeftopMessenger{
-        background-color: var(--aonMessenger);
-}    
-
-#applications:hover {
-  background-size: cover ;
-  background-image: url("../image/aon-background.webp");
-  #aonMenuListAppImgTop-applications {
-	  color: white;
-  }
+.aonMenuLeftop .material-symbols-outlined {
+	color: var(--gray-50);
 }
 
 .aonSideNavFiscalCircle{
@@ -74,7 +63,7 @@
     	background-size: contain;
     	background-position: center;
     	background-repeat: no-repeat;
-    	background-image: url("../image/Infoautonomos-white.svg");
+    	background-image: url("../image/Infoautonomos.svg");
 }
 
 .aonLoginLogo{
@@ -90,6 +79,40 @@
 #aonHeaderHelp {
 	display:none;
 }
+
+#aon_new_invoice {
+	--aonIcon: var(--aonInvoice);
+}
+
+#aon_new_documental {
+	--aonIcon: var(--aonDocumental);
+}
+
+#aon_new_timecontrol {
+	--aonIcon: var(--aonTimecontrol);
+}
+
+#aon_new_notes {
+	--aonIcon: var(--aonNote);
+}
+
+#aon_new_messenger {
+	--aonIcon: var(--aonMessenger);
+}
+
+#registradores {
+	--aonIcon: var(--aonAccounting);
+}
+
+#aon_new_payroll {
+	--aonIcon: var(--aonPayroll);
+}
+
+#aon_new_fiscal {
+	--aonIcon: var(--aonFiscal);
+}
+
+
 
 /**
 Important. Keep this rule at the end of file 

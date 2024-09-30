@@ -50,10 +50,10 @@
 }
 
 .aonLoginLogo{
-  width: 180px;
-  height: 50px;
+  width: 150px;
+  height: 70px;
   cursor: pointer;
-  background-size: 175px 65px;
+  background-size: 175px 60px;
   background-position: right;
   background-repeat: no-repeat;
   background-image: url("../image/edaseColor.svg");

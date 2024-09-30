@@ -54,3 +54,40 @@
   background-repeat: no-repeat;
   background-image: url("../image/ayudaTpymes.svg");
 }
+
+.aonLink{
+	display: none;
+}
+
+.aonTrademark:after {
+	content: ' Ayuda T Pymes es una marca registrada de Ayuda T Soluciones Profesionales S.L.';
+}
+
+.aonWeekSchedule:after{
+	content: 'Lunes a jueves de 8:00 a 15:00';
+}
+
+.aonWeekFridaySchedule:after{
+	content: 'Viernes de 8:00 a 14:00';
+}
+
+.aonSupportTelephone:after {
+	content: '(+34) 900 100 162';	
+}
+
+.aonSupportUsersEmail:after {
+	content: 'clientes@ayudaT.es';	
+}
+
+.aonSupportSalesEmail:after {
+	display:none;
+}
+
+.aonSupportAdminEmail:after {
+	display:none;
+}
+
+#aonContactIcon3,
+#aonContactIcon4 {
+	display: none;
+}

@@ -125,6 +125,10 @@
 	--aonIcon: var(--aonPayroll);
 }
 
+#aon_new_fiscal {
+	--aonIcon: var(--aonFiscal);
+}
+
 /**
 Important. Keep this rule at the end of file 
 **/

@@ -31,9 +31,6 @@
   	border-radius: 100px;
 }
 
-#applications {
-	background-color: var(--ayudaTColor);
-}
 
 .aonMenuLeftop .material-symbols-outlined {
 	color: var(--gray-50);

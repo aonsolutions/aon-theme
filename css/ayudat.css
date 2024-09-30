@@ -1,6 +1,7 @@
 :root{
 	--favicon: https://ayudatpymes.com/images/default/isotipo.png;
 	--ayudaTColor: #f0f0f0;
+	--aonIcon: var(--gray-50);
 }
 
 #aonConfigThemesCard{

@@ -99,6 +99,15 @@
 
 #aon_new_invoice {
 	--aonIcon: var(--aonInvoice);
+}
+
+#aon_new_documental {
+	--aonIcon: var(--aonDocumental);
+}
+
+#aon_new_accounting {
+	--aonIcon: var(--aonAccounting);
+}
 
 /**
 Important. Keep this rule at the end of file 

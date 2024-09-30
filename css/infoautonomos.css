@@ -18,6 +18,33 @@
 	background-color: var(--infoautonomosColor);
 }
 
+#academy:hover, 
+#accounting:hover, 
+#accountingMenu:hover, 
+#aonApplication:hover, 
+#comerce:hover, 
+#comercialMenu:hover, 
+#comunica:hover, 
+#documental:hover, 
+#fiscal:hover, 
+#fiscalMenu:hover, 
+#garage:hover, 
+#groupwareMenu:hover, 
+#home:hover, 
+#invoice:hover, 
+#managementMenu:hover, 
+#marketingMenu:hover,
+#messenger:hover, 
+#new:hover, 
+#note:hover, 
+#office:hover, 
+#payroll:hover, 
+#payrollMenu:hover, 
+#timecontrol:hover, 
+#treasuryMenu:hover, 
+#warehouseMenu:hover {
+  background-color: rgba(0,0,0,.1);
+
 #applications {
 	background-color: var(--infoautonomosColor);
 }

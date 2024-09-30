@@ -22,16 +22,12 @@
 #aonHeaderConfig:hover, 
 #aonHeaderNotification:hover, 
 #aonHeaderUser:hover{
-	background-color: rgba(255,255,255,0.3);
+	background-color: rgba(0,0,0,0.3);
   	border-radius: 100px;
 }
 
 #applications {
 	background-color: var(--edaseColor);
-}
-
-#applications:hover {
-  background-color: rgba(255,255,255,0.3);
 }
 
 .aonMenuLeftop .material-symbols-outlined {

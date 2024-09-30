@@ -96,8 +96,9 @@
 	display: none;
 }
 
+#aonLoginLanguageButtonIconButton,
 #aonLoginLanguageSpanToolbar {
-	color:  var(--edaseColor);
+	color:  var(--edaseColor) !important;
 }
 
 

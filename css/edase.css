@@ -1,0 +1,93 @@
+:root{
+	--favicon: https://ayudatpymes.com/images/default/isotipo.png;
+	--ayudaTColor: #f0f0f0;
+}
+
+#aonConfigThemesCard{
+	display: none;
+}
+
+.aonHeader {
+	overflow: hidden;
+	background-color: var(--ayudaTColor);
+}
+
+.aonHeader #aonHeaderCompanyName,
+.aonHeader .material-icons {
+	color: var(--gray-50);
+}
+
+#aonHeaderCompanyList:hover,
+#aonHeaderHelp:hover, 
+#aonHeaderConfig:hover, 
+#aonHeaderNotification:hover, 
+#aonHeaderUser:hover{
+	background-color: rgba(255,255,255,0.3);
+  	border-radius: 100px;
+}
+
+#applications {
+	background-color: var(--ayudaTColor);
+}
+
+.aonMenuLeftop .material-symbols-outlined {
+	color: var(--gray-50);
+}
+
+.aonNewLogo {
+    width: 150px;
+    height: 48px;
+    cursor: pointer;
+    padding: 0 0 0 68px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../image/ayudaTpymes.svg");
+}
+
+.aonLoginLogo{
+  width: 180px;
+  height: 50px;
+  cursor: pointer;
+  background-size: 175px 65px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-image: url("../image/ayudaTpymes.svg");
+}
+
+.aonLink{
+	display: none;
+}
+
+.aonTrademark:after {
+	content: ' Ayuda T Pymes es una marca registrada de Ayuda T Soluciones Profesionales S.L.';
+}
+
+.aonWeekSchedule:after{
+	content: 'Lunes a jueves de 8:00 a 15:00';
+}
+
+.aonWeekFridaySchedule:after{
+	content: 'Viernes de 8:00 a 14:00';
+}
+
+.aonSupportTelephone:after {
+	content: '(+34) 900 100 162';	
+}
+
+.aonSupportUsersEmail:after {
+	content: 'soporte@ayudatpymes.es';	
+}
+
+.aonSupportSalesEmail:after {
+	display:none;
+}
+
+.aonSupportAdminEmail:after {
+	display:none;
+}
+
+#aonContactIcon3,
+#aonContactIcon4 {
+	display: none;
+}

@@ -27,8 +27,8 @@
 }
 
 #applications {
-	--aonTopMenuAvailable: white;
 	background-color: var(--ayudaTColor);
+	color: var(--gray-50);
 }
 
 .aonNewLogo {

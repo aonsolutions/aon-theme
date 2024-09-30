@@ -13,6 +13,11 @@
 	background-color: var(--ayudaTColor);
 }
 
+#applications {
+	background-color: var(--edaseColor);
+}
+
+
 .aonHeader #aonHeaderCompanyName,
 .aonHeader .material-icons {
 	color: var(--gray-50);

@@ -1,6 +1,6 @@
 :root{
-	--favicon: https://ayudatpymes.com/images/default/isotipo.png;
-	--ayudaTColor: #f0f0f0;
+	--favicon: https://edase.es/images/imagen_destacada.jpg;
+	--edaseColor: #3D4762;
 }
 
 #aonConfigThemesCard{
@@ -9,12 +9,12 @@
 
 .aonHeader {
 	overflow: hidden;
-	background-color: var(--ayudaTColor);
+	background-color: var(--edaseColor);
 }
 
 .aonHeader #aonHeaderCompanyName,
 .aonHeader .material-icons {
-	color: var(--gray-50);
+	color: white;
 }
 
 #aonHeaderCompanyList:hover,
@@ -27,11 +27,11 @@
 }
 
 #applications {
-	background-color: var(--ayudaTColor);
+	background-color: var(--edaseColor);
 }
 
 .aonMenuLeftop .material-symbols-outlined {
-	color: var(--gray-50);
+	color: white;
 }
 
 .aonNewLogo {
@@ -42,7 +42,7 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../image/ayudaTpymes.svg");
+    background-image: url("../image/edase.svg");
 }
 
 .aonLoginLogo{
@@ -52,7 +52,7 @@
   background-size: 175px 65px;
   background-position: right;
   background-repeat: no-repeat;
-  background-image: url("../image/ayudaTpymes.svg");
+  background-image: url("../image/edase.svg");
 }
 
 .aonLink{

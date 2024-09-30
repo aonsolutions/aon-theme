@@ -46,10 +46,10 @@
 }
 
 .aonLoginLogo{
-  width: 200px;
+  width: 180px;
   height: 50px;
   cursor: pointer;
-  background-size: 139px 65px;
+  background-size: 175px 65px;
   background-position: right;
   background-repeat: no-repeat;
   background-image: url("../image/ayudaTpymes.svg");

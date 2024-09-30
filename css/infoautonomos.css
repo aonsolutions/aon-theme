@@ -45,6 +45,7 @@
 #treasuryMenu:hover, 
 #warehouseMenu:hover {
   background-color: rgba(0,0,0,.1);
+}
 
 #applications {
 	background-color: var(--infoautonomosColor);

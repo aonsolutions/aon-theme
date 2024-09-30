@@ -76,11 +76,11 @@
 }
 
 .aonSupportTelephone:after {
-	content: '(+34) 900 100 162';	
+	content: '(+34) 900 866 336';	
 }
 
 .aonSupportUsersEmail:after {
-	content: 'soporte@ayudatpymes.es';	
+	content: 'info@edase.es';	
 }
 
 .aonSupportSalesEmail:after {
@@ -94,4 +94,16 @@
 #aonContactIcon3,
 #aonContactIcon4 {
 	display: none;
+}
+
+#aonLoginLanguageSpanToolbar {
+	color:  var(--edaseColor);
+}
+
+
+/**
+Important. Keep this rule at the end of file 
+**/
+.aonTheme {
+	--aon-theme: 'EDASE';
 }

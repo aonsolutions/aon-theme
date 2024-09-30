@@ -91,3 +91,10 @@
 #aonContactIcon4 {
 	display: none;
 }
+
+/**
+Important. Keep this rule at the end of file 
+**/
+.aonTheme {
+	--aon-theme: 'AYUDA T PYMES';
+}

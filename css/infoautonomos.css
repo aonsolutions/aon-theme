@@ -17,6 +17,10 @@
 	background-color: var(--infoautonomosColor);
 }
 
+#applications {
+	background-color: var(--infoautonomosColor);
+}
+
 .aonHeader #aonHeaderCompanyName,
 .aonHeader .material-icons {
 	color: var(--gray-50);

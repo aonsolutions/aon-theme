@@ -30,6 +30,10 @@
 	background-color: var(--edaseColor);
 }
 
+#applications:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
 .aonMenuLeftop .material-symbols-outlined {
 	color: white;
 }

@@ -18,6 +18,10 @@
 	color: var(--gray-50);
 }
 
+.aonHeaderAppSpan{
+	color: var(--gray-50);
+}
+
 #aonHeaderCompanyList:hover,
 #aonHeaderHelp:hover, 
 #aonHeaderConfig:hover, 

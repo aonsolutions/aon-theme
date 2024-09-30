@@ -46,7 +46,7 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../image/edase.svg");
+    background-image: url("../image/L3G-white.svg");
 }
 
 .aonLoginLogo{
@@ -56,7 +56,7 @@
   background-size: 175px 60px;
   background-position: right;
   background-repeat: no-repeat;
-  background-image: url("../image/edaseColor.svg");
+  background-image: url("../image/L3G-black.svg");
 }
 
 .aonLink{

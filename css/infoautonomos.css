@@ -13,6 +13,7 @@
 
 .aonHeader,
 .aonMenuLeftop,
+.aonMenuLeftopStart,
 .aonMenuSidenav{
 	overflow: hidden;
 	background-color: var(--infoautonomosColor);

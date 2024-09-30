@@ -1,0 +1,110 @@
+:root{
+	--favicon: https://edase.es/images/isotipo.png;
+	--l3gColor: #000000;
+}
+
+#aonConfigThemesCard{
+	display: none;
+}
+
+.aonHeader {
+	overflow: hidden;
+	background-color: var(--l3gColor);
+}
+
+.aonHeader #aonHeaderCompanyName,
+.aonHeader .material-icons {
+	color: white;
+}
+
+#aonHeaderCompanyList:hover,
+#aonHeaderHelp:hover, 
+#aonHeaderConfig:hover, 
+#aonHeaderNotification:hover, 
+#aonHeaderUser:hover{
+	background-color: rgba(0,0,0,0.3);
+  	border-radius: 100px;
+}
+
+#applications {
+	background-color: var(--l3gColor);
+}
+
+#applications:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+
+.aonMenuLeftop .material-symbols-outlined {
+	color: white;
+}
+
+.aonNewLogo {
+    width: 100px;
+    height: 48px;
+    cursor: pointer;
+    padding: 0 0 0 68px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../image/edase.svg");
+}
+
+.aonLoginLogo{
+  width: 150px;
+  height: 70px;
+  cursor: pointer;
+  background-size: 175px 60px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-image: url("../image/edaseColor.svg");
+}
+
+.aonLink{
+	display: none;
+}
+
+.aonTrademark:after {
+	content: ' L3G Marketing es una marca registrada de Ayuda T Soluciones Profesionales S.L.';
+}
+
+.aonWeekSchedule:after{
+	content: 'Lunes a jueves de 8:00 a 15:00';
+}
+
+.aonWeekFridaySchedule:after{
+	content: 'Viernes de 8:00 a 14:00';
+}
+
+.aonSupportTelephone:after {
+	content: '(+34) 900 908 882';	
+}
+
+.aonSupportUsersEmail:after {
+	content: 'info@l3gmarketing.es';	
+}
+
+.aonSupportSalesEmail:after {
+	display:none;
+}
+
+.aonSupportAdminEmail:after {
+	display:none;
+}
+
+#aonContactIcon3,
+#aonContactIcon4 {
+	display: none;
+}
+
+#aonLoginLanguageButtonIconButton,
+#aonLoginLanguageSpanToolbar {
+	color:  var(--l3gColor) !important;
+}
+
+
+/**
+Important. Keep this rule at the end of file 
+**/
+.aonTheme {
+	--aon-theme: 'L3G MARKETING';
+}

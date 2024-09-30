@@ -31,3 +31,13 @@
 	background-color: var(--ayudaTColor);
 }
 
+.aonNewLogo {
+    width: 100px;
+    height: 48px;
+    cursor: pointer;
+    padding: 0 0 0 68px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../image/ayudaTpymes.svg");
+}

@@ -97,6 +97,9 @@
 	display: none;
 }
 
+#aon_new_invoice {
+	--aonIcon: var(--aonInvoice);
+
 /**
 Important. Keep this rule at the end of file 
 **/

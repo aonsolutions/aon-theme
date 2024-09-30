@@ -106,10 +106,10 @@
 }
 
 #aon_new_timecontrol {
-	--aonIcon: var(--aonTimeControl);
+	--aonIcon: var(--aonTimecontrol);
 }
 
-#aon_new_note {
+#aon_new_notes {
 	--aonIcon: var(--aonNote);
 }
 

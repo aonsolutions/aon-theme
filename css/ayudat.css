@@ -1,6 +1,15 @@
+:root{
+	--favicon: https://ayudatpymes.com/images/default/isotipo.png;
+	--ayudaTColor: #F3F3F5;
+}
+
+#aonConfigThemesCard{
+	display: none;
+}
+
 .aonHeader {
 	overflow: hidden;
-	background-color: #F3F3F5;
+	background-color: var(--ayudaTColor);
 }
 
 .aonHeader #aonHeaderCompanyName,

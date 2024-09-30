@@ -125,16 +125,16 @@
 	--aonIcon: var(--aonMessenger);
 }
 
-#registradores {
-	--aonIcon: var(--aonAccounting);
+#aonMenuListAppImgTop-accounting {
+	color: var(--aonAccounting);
 }
 
-#aon_new_payroll {
-	--aonIcon: var(--aonPayroll);
+#aonMenuListAppImgTop-payroll {
+	color: var(--aonPayroll);
 }
 
-#aon_new_fiscal {
-	--aonIcon: var(--aonFiscal);
+#aonMenuListAppImgTop-fiscal {
+	color: var(--aonFiscal);
 }
 
 

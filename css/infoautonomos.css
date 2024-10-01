@@ -14,7 +14,8 @@
 .aonHeader,
 .aonMenuLeftop,
 .aonMenuLeftopStart,
-.aonMenuSidenav{
+.aonMenuSidenav,
+.aonNewMenuTopNavDiv{
 	overflow: hidden;
 	background-color: var(--infoautonomosColor);
 }

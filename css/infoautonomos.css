@@ -138,7 +138,9 @@
 	color: var(--aonFiscal);
 }
 
-#aon_new_office {
+#aon_new_office,
+#aon_new_garage,
+#aon_new_academy{
 	--aonIcon: var(--aonTopMenuSpecial);
 }
 

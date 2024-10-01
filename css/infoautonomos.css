@@ -138,6 +138,10 @@
 	color: var(--aonFiscal) !important;
 }
 
+#aon_new_office {
+	--aonIcon: var(--aonTopMenuSpecial);
+}
+
 
 
 /**

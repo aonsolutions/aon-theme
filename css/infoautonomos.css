@@ -127,15 +127,15 @@
 }
 
 #aonMenuListAppImgTop-accounting {
-	color: var(--aonAccounting) !important;
+	color: var(--aonAccounting);
 }
 
 #aonMenuListAppImgTop-payroll {
-	color: var(--aonPayroll) !important;
+	color: var(--aonPayroll);
 }
 
 #aonMenuListAppImgTop-fiscal {
-	color: var(--aonFiscal) !important;
+	color: var(--aonFiscal);
 }
 
 #aon_new_office {

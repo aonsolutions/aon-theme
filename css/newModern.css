@@ -3,6 +3,7 @@
 	--accountingSideNavSymbol: CALCULATE;
   	--fiscalSideNavSymbol: EURO_SYMBOL;
 	--payrollSideNavSymbol: GROUP;
+	--aonLightMessenger: rgba(51, 169, 169, 0.1);
 }
 
 .aonHeaderDocumental, .aonMenuLeftopDocumental {
@@ -59,6 +60,11 @@
 #aonMenuListAppImgTop-fiscal {
 	margin-right: 4px;
 	scale: 1;
+}
+
+#aonMessengerRow:hover {
+	background-color: var(--aonLightMessenger);
+	border: 1px solid var(--aonMessenger);
 }
 
 

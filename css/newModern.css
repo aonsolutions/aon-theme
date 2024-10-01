@@ -4,6 +4,7 @@
   	--fiscalSideNavSymbol: EURO_SYMBOL;
 	--payrollSideNavSymbol: GROUP;
 	--aonLightMessenger: rgba(51, 169, 169, 0.2);
+	--aonLightDocumental: rgba(246, 101, 90, 0.2);
 }
 
 .aonHeaderDocumental, .aonMenuLeftopDocumental {
@@ -67,6 +68,10 @@
 	border: 1px solid var(--aonMessenger) !important; 
 }
 
+#aonDocumentalRow:hover {
+	background-color: var(--aonLightDocumental);
+	border: 1px solid var(--aonDocumental) !important;
+}
 
 /**
 Important. Keep this rule at the end of file 

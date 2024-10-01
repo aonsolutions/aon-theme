@@ -8,6 +8,7 @@
 	--aonLightInvoice: rgba(79, 145, 255, 0.2);
 	--aonLightPayroll: rgba(226, 0, 26, 0.2);
 	--aonLightTimeControl: rgba(209, 195, 109, 0.2);
+	--aonLightFiscal: rgba(0, 94, 181, 0.2);
 }
 
 .aonHeaderDocumental, .aonMenuLeftopDocumental {
@@ -89,6 +90,13 @@
 #aonTimeControlRow:hover {
 	background-color: var(--aonLightTimeControl);
 	border: 1px solid var(--aonTimecontrol) !important;
+}
+
+#aonFiscalRow:hover {
+	background-color: var(--aonLightFiscal);
+	border: 1px solid var(--aonFiscal) !important;
+}
+
 
 /**
 Important. Keep this rule at the end of file 

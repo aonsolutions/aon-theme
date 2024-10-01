@@ -142,6 +142,8 @@
 	--aonIcon: var(--aonTopMenuSpecial);
 }
 
+.aonHeaderAppIcon{
+	color: var(--aonTopMenuAvailable);
 
 
 /**

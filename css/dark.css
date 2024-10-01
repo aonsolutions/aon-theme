@@ -3,9 +3,9 @@
 
   	--aonHeaderButtonColor: var(--aonWhite);
 	
-	--aonHeaderBackgroundColor: black;
+	--aonHeaderBackgroundColor: #111111;
 
-	--aonHeaderBackgroundAvailable: black;
+	--aonHeaderBackgroundAvailable: #111111;
 
   	--aonRightPanelColor: #212121;
 
@@ -49,7 +49,7 @@
 
 	--aonTopAppTextColor: var(--aonWhite);
 
-  	--aonTopMenuAvailableMouseOverImg : black;
+  	--aonTopMenuAvailableMouseOverImg : #111111;
 
 	--aonTopMenuAvilableMouseOutText: white;
 
@@ -69,7 +69,7 @@
   
 	--aonSwitchButtonCircleOn: white;
 
-	--aonHomeMouseOverImg: black; 
+	--aonHomeMouseOverImg: #111111; 
 
 	--aonHomeImg: white;
   
@@ -101,11 +101,11 @@ input:-webkit-autofill:active  {
 }
 
 .aonDashboardButton:hover{
-	background-color: black;
+	background-color: #111111;
 }
   
 .aonDashboardButton:hover i{
-	background-color: black;
+	background-color: #111111;
 }
 
 .rootPanel {
@@ -121,7 +121,7 @@ h1 {
 }
 
 .sidenavHover:hover{
-	background-color: black;
+	background-color: #111111;
 }
 
 .aonHeader {
@@ -175,15 +175,15 @@ h1 {
 }
 
 .aonTableTrChecked {
-	background-color: black;
+	background-color: #111111;
 }
   
 .aonTable tbody tr:hover {
-	background-color: black;
+	background-color: #111111;
 }
   
 .aonTable tbody tr:active {
-	background-color: black;
+	background-color: #111111;
 }
 
 .aonMenuSidenav {
@@ -200,7 +200,7 @@ h1 {
 }
 
  #aonAccountingSidenavPyG {
-	background-color: black;
+	background-color: #111111;
 }
 
 .aonSearchBoxBeta {
@@ -226,7 +226,7 @@ h1 {
   
 .aonCheckbox > input:checked + span::after,
 .aonCheckbox > input:indeterminate + span::after {
-	border-color: black;
+	border-color: #111111;
 }
 
 .aonCheckbox > input:active + span::before {
@@ -242,7 +242,7 @@ h1 {
 }
 
 .aonTableTr.aonTableTrChecked {
-  	background-color: black;
+  	background-color: #111111;
 }
 
 .aonNewLogo{
@@ -386,9 +386,9 @@ h1 {
 
 .notificationPanelRowPrincipalDiv:hover{
   	background-color: rgba(225, 225, 227, 1);
-  	color: black;
+  	color: #111111;
   	.material-icons {
-		color: black;
+		color: #111111;
   	}
 }
 
@@ -426,11 +426,11 @@ h1 {
 
 .aonLoginButton {
 	background-color: white;
-	color: black;
+	color: #111111;
 }
 .aonLoginButton:hover {
 	background-color: white;
-	color: black;
+	color: #111111;
 }
 
 .aonMagicButton {
@@ -441,7 +441,7 @@ h1 {
 .aonMagicButton:focus, 
 .aonMagicButton:hover {
 	background-color: white;
-	color: black;
+	color: #111111;
 }
 
 .aonMagicButtonHover{
@@ -473,7 +473,7 @@ h1 {
 
 #aonNotificationPanelOpenButtonIcon:hover{
   	background-color: rgba(225,225,227,1);
-  	color: black;
+  	color: #111111;
 }
 
 .aonMenuItemSpan {
@@ -642,7 +642,7 @@ h1 {
 }
 
 .aonInvoiceHomePendingRecordsDiv:hover{
-	background-color: black;
+	background-color: #111111;
 }
 
 .aonInvoiceHomePendingName {
@@ -650,7 +650,7 @@ h1 {
 }
 
 .aonInvoiceHomePendingIssuedDiv:hover{
-	background-color: black;
+	background-color: #111111;
 }
 
 .aonInvoiceHomePendingIssuedName{
@@ -658,7 +658,7 @@ h1 {
 }
 
 .aonInvoiceHomePendingReceivedDiv:hover{
-	background-color: black;
+	background-color: #111111;
 }
 
 .aonInvoiceHomePendingReceivedName {
@@ -666,7 +666,7 @@ h1 {
 }
 
 .aonInvoiceHomePendingTicketDiv:hover {
-	background-color: black;
+	background-color: #111111;
 }
 
 .aonInvoiceHomePendingTicketName {
@@ -674,7 +674,7 @@ h1 {
 }
 
 .aonInvoiceHomeRejectedDiv:hover{
-	background-color: black;
+	background-color: #111111;
 }
 
 .aonInvoiceHomeRejectedName {
@@ -682,7 +682,7 @@ h1 {
 }
 
 .aonInvoiceHomeTrashDiv:hover {
-	background-color: black;
+	background-color: #111111;
 }
   
 .aonInvoiceHomeTrashNumber {

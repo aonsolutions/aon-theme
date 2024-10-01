@@ -122,6 +122,16 @@
 	--aonIcon: var(--aonFiscal);
 }
 
+#aon_new_office,
+#aon_new_garage,
+#aon_new_academy{
+	--aonIcon: var(--aonTopMenuSpecial);
+}
+
+.aonHeaderAppIcon{
+	color: var(--aonTopMenuAvailable);
+}
+
 /**
 Important. Keep this rule at the end of file 
 **/

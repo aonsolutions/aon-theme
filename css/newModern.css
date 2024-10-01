@@ -82,7 +82,7 @@
 
 #aonPayrollRow:hover {
 	background-color: var(--aonLightPayroll);
-	border: 1pxs solid var(--aonPayroll) !important;
+	border: 1px solid var(--aonPayroll) !important;
 }
 
 /**

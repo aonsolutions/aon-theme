@@ -79,6 +79,8 @@
 
 	--aonTaxBuildPrintRes: white;
 
+	--aonSecondary: #31363F;
+
 }
 
 
@@ -692,6 +694,10 @@ h1 {
 .aonInvoiceHomeTrashName {
 	color: white;
 }
+
+.aonCard {
+  border: 1px solid var(--aonSecondary);
+ }
 
 /**
 Important. Keep this rule at the end of file 

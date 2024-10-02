@@ -98,6 +98,10 @@ input:-webkit-autofill:active  {
 	color: white;
 }
 
+.aonDashboardButton {
+	border: solid 0.5rem grey;
+}
+
 .aonDashboardButton i {
 	background-color: transparent;
 }
@@ -655,12 +659,20 @@ h1 {
 	color:  white;  
 }
 
+.aonInvoiceHomePendingRecordsDiv {
+	border: 1px solid grey;
+}
+
 .aonInvoiceHomePendingRecordsDiv:hover{
 	background-color: #111111;
 }
 
 .aonInvoiceHomePendingName {
 	color: white;
+}
+
+.aonInvoiceHomePendingDiv {
+	border: 1px solid grey;
 }
 
 .aonInvoiceHomePendingIssuedDiv:hover{
@@ -691,12 +703,20 @@ h1 {
 	background-color: #111111;
 }
 
+.aonInvoiceHomeRejectedDiv {
+	border: 1px solid grey;
+}
+
 .aonInvoiceHomeRejectedName {
 	color: white;
 }
 
 .aonInvoiceHomeTrashDiv:hover {
 	background-color: #111111;
+}
+
+.aonInvoiceHomeTrashDiv {
+	border: 1px solid grey;
 }
   
 .aonInvoiceHomeTrashNumber {

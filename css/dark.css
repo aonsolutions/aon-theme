@@ -602,9 +602,12 @@ h1 {
 }
 
 .aonUl,
-.accountingChatLegend,
 .aonSearchInput {
 	color: white;
+}
+
+.accountingChatLegend {
+	color: white !important;
 }
 
 #nullIcon .material-icons {

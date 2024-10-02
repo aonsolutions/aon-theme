@@ -707,9 +707,9 @@ h1 {
 	color: white;
 }
 
-/* .aonCard {
-  border: 1px solid var(--aonSecondary);
- } */
+#aonCompanyCostCardSpan {
+	color: white !important;
+}
 
 /**
 Important. Keep this rule at the end of file 

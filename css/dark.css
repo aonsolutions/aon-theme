@@ -99,7 +99,7 @@ input:-webkit-autofill:active  {
 }
 
 .aonDashboardButton {
-	border: solid 0.5rem grey;
+	border: solid 0.05rem grey;
 }
 
 .aonDashboardButton i {

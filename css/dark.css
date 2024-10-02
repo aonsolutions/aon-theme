@@ -731,6 +731,11 @@ h1 {
 	color: white !important;
 }
 
+#aonTimeControlTableDiv  {
+	border: 2px solid white !important;
+  	color: white !important;
+}
+
 /**
 Important. Keep this rule at the end of file 
 **/

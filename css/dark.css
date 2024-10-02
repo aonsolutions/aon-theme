@@ -573,6 +573,14 @@ h1 {
 	border: 1px solid grey;
 }
 
+.aonUpload {
+	border: 2px dashed grey;
+}
+
+.aonUpload:hover {
+	border-color: white;
+}
+
 .aonAppLi{
 	background-color: var(--aonCardColor);
 }

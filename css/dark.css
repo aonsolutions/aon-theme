@@ -569,6 +569,10 @@ h1 {
 	color: white;
 }
 
+.aonCard {
+	border: 1px solid grey;
+}
+
 .aonAppLi{
 	background-color: var(--aonCardColor);
 }

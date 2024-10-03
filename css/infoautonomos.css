@@ -4,6 +4,12 @@
   	--fiscalSideNavSymbol: EURO_SYMBOL;
 	--payrollSideNavSymbol: GROUP;
 	--infoautonomosColor: white;
+	--aonLightMessenger: rgba(51, 169, 169, 0.2);
+	--aonLightDocumental: rgba(246, 101, 90, 0.2);
+	--aonLightInvoice: rgba(79, 145, 255, 0.2);
+	--aonLightPayroll: rgba(226, 0, 26, 0.2);
+	--aonLightTimeControl: rgba(209, 195, 109, 0.2);
+	--aonLightFiscal: rgba(0, 94, 181, 0.2);
 }
 
 
@@ -146,6 +152,36 @@
 
 .aonHeaderAppIcon{
 	color: var(--aonTopMenuAvailable);
+}
+
+#aonMessengerRow:hover {
+	background-color: var(--aonLightMessenger);
+	border: 1px solid var(--aonMessenger) !important; 
+}
+
+#aonDocumentalRow:hover {
+	background-color: var(--aonLightDocumental);
+	border: 1px solid var(--aonDocumental) !important;
+}
+
+#aonInvoiceRow:hover {
+	background-color: var(--aonLightInvoice);
+	border: 1px solid var(--aonInvoice) !important;
+}
+
+#aonPayrollRow:hover {
+	background-color: var(--aonLightPayroll);
+	border: 1px solid var(--aonPayroll) !important;
+}
+
+#aonTimeControlRow:hover {
+	background-color: var(--aonLightTimeControl);
+	border: 1px solid var(--aonTimecontrol) !important;
+}
+
+#aonFiscalRow:hover {
+	background-color: var(--aonLightFiscal);
+	border: 1px solid var(--aonFiscal) !important;
 }
 
 /**

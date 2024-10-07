@@ -150,6 +150,10 @@
 	--aonIcon: var(--aonTopMenuSpecial);
 }
 
+#apps .aonHeaderAppIcon {
+	color: black;
+}
+
 .aonHeaderAppIcon{
 	color: var(--aonTopMenuAvailable);
 }

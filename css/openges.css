@@ -48,8 +48,7 @@
     background-image: url("https://www.openges.es/images/logo.svg");
 }
 
-.aonMenuLeftopStart,
-.aonMenuLeftop {
+#applications {
 	--aonTopMenuAvailable: white;
 	background-color: black;
 }

@@ -18,7 +18,8 @@
 	display: none;
 }
 
-.aonHeader {
+.aonHeader,
+.aonMeuLeftop {
 	overflow: hidden;
 	background-color: black;
 }

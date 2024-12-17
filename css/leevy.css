@@ -222,19 +222,31 @@
 	color: var(--aonWhite);
 }
 
-#apps:hover, #home:hover, 
-#invoice:hover, #documental:hover, 
-#accounting:hover, #fiscal:hover, 
-#payroll:hover, #timecontrol:hover, 
-#note:hover, #messenger:hover,
-#warehouse:hover,
-#office:hover, #garage:hover, 
-#academy:hover, #comerce:hover, 
-#comercialMenu:hover, #managementMenu:hover, 
-#treasuryMenu:hover, #warehouseMenu:hover, 
-#groupwareMenu:hover, #accountingMenu:hover, 
-#fiscalMenu:hover, #payrollMenu:hover, 
-#marketingMenu:hover, #aonApplication:hover{
+#apps:hover, 
+#home:hover, 
+#invoice:hover, 
+#documental:hover, 
+#accounting:hover, 
+#fiscal:hover, 
+#payroll:hover, 
+#timecontrol:hover, 
+#note:hover, 
+#messenger:hover, 
+#warehouse:hover, 
+#office:hover, 
+#garage:hover, 
+#academy:hover, 
+#comerce:hover, 
+#comercialMenu:hover, 
+#managementMenu:hover, 
+#treasuryMenu:hover, 
+#warehouseMenu:hover, 
+#groupwareMenu:hover, 
+#accountingMenu:hover, 
+#fiscalMenu:hover, 
+#payrollMenu:hover, 
+#marketingMenu:hover, 
+#aonApplication:hover {
 	background-color: rgb(240,240,240);
 }
 

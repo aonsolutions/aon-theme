@@ -302,6 +302,10 @@
     }
 }
 
+#aonMenuList-new {
+	diaplay:none;
+}
+
 
 /**
 Important. Keep this rule at the end of file 

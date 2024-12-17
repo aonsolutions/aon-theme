@@ -222,6 +222,10 @@
 	color: var(--aonWhite);
 }
 
+#new {
+	background-color: orange;
+}
+
 #apps:hover, 
 #home:hover, 
 #invoice:hover, 
@@ -315,9 +319,7 @@
     }
 }
 
-#new {
-	display:none;
-}
+
 
 
 

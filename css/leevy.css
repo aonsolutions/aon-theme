@@ -223,7 +223,7 @@
 }
 
 #new {
-	display: none;
+	display: none !important;
 }
 
 #apps:hover, 

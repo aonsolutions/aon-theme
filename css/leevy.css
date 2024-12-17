@@ -223,7 +223,7 @@
 }
 
 #new {
-	background-color: orange;
+	display: none;
 }
 
 #apps:hover, 

@@ -222,7 +222,7 @@
 	color: var(--aonWhite);
 }
 
-#new:hover, #home:hover, 
+#home:hover, 
 #invoice:hover, #documental:hover, 
 #accounting:hover, #fiscal:hover, 
 #payroll:hover, #timecontrol:hover, 
@@ -302,10 +302,10 @@
     }
 }
 
-#aonMenuList-new {
-	diaplay:none;
-	background-color: orange;
+#new {
+	display:none;
 }
+
 
 
 /**

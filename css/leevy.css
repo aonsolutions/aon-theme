@@ -222,10 +222,6 @@
 	color: var(--aonWhite);
 }
 
-#new {
-	display: none !important;
-}
-
 #apps:hover, 
 #home:hover, 
 #invoice:hover, 

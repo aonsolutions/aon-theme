@@ -1,5 +1,5 @@
 :root {
-	--favicon: ../image/community.png;
+	--favicon: "../image/community.png";
 
 	--vistaPersonaliazadaColor: white;
 }

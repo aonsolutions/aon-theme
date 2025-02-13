@@ -1,0 +1,201 @@
+:root {
+	--favicon: https://www.infoautonomos.com/wp-content/uploads/2010/07/cropped-imagotipo-infoauto-300x300.png;
+	--accountingSideNavSymbol: CALCULATE;
+  	--fiscalSideNavSymbol: EURO_SYMBOL;
+	--payrollSideNavSymbol: GROUP;
+	--infoautonomosColor: white;
+	--aonLightMessenger: rgba(51, 169, 169, 0.2);
+	--aonLightDocumental: rgba(246, 101, 90, 0.2);
+	--aonLightInvoice: rgba(79, 145, 255, 0.2);
+	--aonLightPayroll: rgba(226, 0, 26, 0.2);
+	--aonLightTimeControl: rgba(209, 195, 109, 0.2);
+	--aonLightFiscal: rgba(0, 94, 181, 0.2);
+}
+
+
+#aonConfigThemesCard{
+	display: none;
+}
+
+.aonHeader,
+.aonMenuLeftop,
+.aonMenuLeftopStart,
+.aonMenuSidenav,
+.aonNewMenuTopNavDiv{
+	overflow: hidden;
+	background-color: var(--infoautonomosColor);
+}
+
+#academy:hover, 
+#accounting:hover, 
+#accountingMenu:hover, 
+#aonApplication:hover, 
+#comerce:hover, 
+#comercialMenu:hover, 
+#comunica:hover, 
+#documental:hover, 
+#fiscal:hover, 
+#fiscalMenu:hover, 
+#garage:hover, 
+#groupwareMenu:hover, 
+#home:hover, 
+#apps:hover,
+#invoice:hover, 
+#managementMenu:hover, 
+#marketingMenu:hover,
+#messenger:hover, 
+#new:hover, 
+#note:hover, 
+#warehouse:hover,
+#office:hover, 
+#payroll:hover, 
+#payrollMenu:hover, 
+#timecontrol:hover, 
+#treasuryMenu:hover, 
+#warehouseMenu:hover,
+#configurationMenu:hover {
+  background-color: rgba(0,0,0,.1);
+}
+
+#applications {
+	background-color: var(--infoautonomosColor);
+}
+
+.aonHeader #aonHeaderCompanyName,
+.aonHeader .material-icons {
+	color: var(--gray-50);
+}
+
+.aonHeaderAppSpan{
+	color: black;
+}
+
+.aonMenuLeftop .material-symbols-outlined {
+	color: var(--gray-50);
+}
+
+.aonSideNavFiscalCircle{
+  border: 1px solid var(--aonFiscal);
+  color: var(--aonFiscal);
+}
+
+.aonAppMenuSidenavListSelected div {
+  	background-color: var(--aonFiscal);
+  	border: 1px solid var(--aonFiscal);
+  	color: white;
+}
+
+#aonMenuListAppImgTop-fiscal {
+	margin-right: 4px;
+	scale: 1;
+}
+
+.aonNewLogo {
+    	width: 165px;
+    	height: 48px;
+   	cursor: pointer;
+	margin-left: 65px;
+    	background-size: contain;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-image: url("../image/Infoautonomos.svg");
+}
+
+.aonLoginLogo{
+  	width: 175px;
+  	height: 50px;
+  	cursor: pointer;
+  	background-size: 170px 65px;
+  	background-position: right;
+  	background-repeat: no-repeat;
+  	background-image: url("../image/Infoautonomos.svg");
+}
+
+#aonHeaderHelp {
+	display:none;
+}
+
+#aon_new_invoice {
+	--aonIcon: var(--aonInvoice);
+}
+
+#aon_new_documental {
+	--aonIcon: var(--aonDocumental);
+}
+
+#aon_new_timecontrol {
+	--aonIcon: var(--aonTimecontrol);
+}
+
+#aon_new_notes {
+	--aonIcon: var(--aonNote);
+}
+
+#aon_new_messenger {
+	--aonIcon: var(--aonMessenger);
+}
+
+#aonMenuListAppImgTop-accounting {
+	color: var(--aonAccounting);
+}
+
+#aonMenuListAppImgTop-payroll {
+	color: var(--aonPayroll);
+}
+
+#aonMenuListAppImgTop-fiscal {
+	color: var(--aonFiscal);
+}
+
+#aon_new_office,
+#aon_new_garage,
+#aon_new_academy{
+	--aonIcon: var(--aonTopMenuSpecial);
+}
+
+#aonMenuListAppImgTop-apps {
+	color: black;
+}
+
+.aonHeaderAppIcon{
+	color: var(--aonTopMenuAvailable);
+}
+
+#aonMessengerRow:hover {
+	background-color: var(--aonLightMessenger);
+	border: 1px solid var(--aonMessenger) !important; 
+}
+
+#aonDocumentalRow:hover {
+	background-color: var(--aonLightDocumental);
+	border: 1px solid var(--aonDocumental) !important;
+}
+
+#aonInvoiceRow:hover {
+	background-color: var(--aonLightInvoice);
+	border: 1px solid var(--aonInvoice) !important;
+}
+
+#aonPayrollRow:hover {
+	background-color: var(--aonLightPayroll);
+	border: 1px solid var(--aonPayroll) !important;
+}
+
+#aonTimeControlRow:hover {
+	background-color: var(--aonLightTimeControl);
+	border: 1px solid var(--aonTimecontrol) !important;
+}
+
+#aonFiscalRow:hover {
+	background-color: var(--aonLightFiscal);
+	border: 1px solid var(--aonFiscal) !important;
+}
+
+
+
+/**
+Important. Keep this rule at the end of file 
+**/
+.aonTheme {
+	--aon-theme: 'INFOAUTONOMOS';
+}

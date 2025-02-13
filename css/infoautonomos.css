@@ -39,18 +39,21 @@
 #garage:hover, 
 #groupwareMenu:hover, 
 #home:hover, 
+#app:hover,
 #invoice:hover, 
 #managementMenu:hover, 
 #marketingMenu:hover,
 #messenger:hover, 
 #new:hover, 
 #note:hover, 
+#warehouse:hover,
 #office:hover, 
 #payroll:hover, 
 #payrollMenu:hover, 
 #timecontrol:hover, 
 #treasuryMenu:hover, 
-#warehouseMenu:hover {
+#warehouseMenu:hover,
+#configurationMenu:hover {
   background-color: rgba(0,0,0,.1);
 }
 
@@ -187,6 +190,8 @@
 	background-color: var(--aonLightFiscal);
 	border: 1px solid var(--aonFiscal) !important;
 }
+
+
 
 /**
 Important. Keep this rule at the end of file 

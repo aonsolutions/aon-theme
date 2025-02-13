@@ -1,9 +1,6 @@
 :root {
 	--favicon: https://www.infoautonomos.com/wp-content/uploads/2010/07/cropped-imagotipo-infoauto-300x300.png;
-	--accountingSideNavSymbol: CALCULATE;
-  	--fiscalSideNavSymbol: EURO_SYMBOL;
-	--payrollSideNavSymbol: GROUP;
-	--infoautonomosColor: white;
+	--vistaPersonaliazadaColor: white;
 	--aonLightMessenger: rgba(51, 169, 169, 0.2);
 	--aonLightDocumental: rgba(246, 101, 90, 0.2);
 	--aonLightInvoice: rgba(79, 145, 255, 0.2);
@@ -23,7 +20,7 @@
 .aonMenuSidenav,
 .aonNewMenuTopNavDiv{
 	overflow: hidden;
-	background-color: var(--infoautonomosColor);
+	background-color: var(--vistaPersonaliazadaColor);
 }
 
 #academy:hover, 
@@ -58,7 +55,7 @@
 }
 
 #applications {
-	background-color: var(--infoautonomosColor);
+	background-color: var(--vistaPersonaliazadaColor);
 }
 
 .aonHeader #aonHeaderCompanyName,
@@ -88,31 +85,6 @@
 #aonMenuListAppImgTop-fiscal {
 	margin-right: 4px;
 	scale: 1;
-}
-
-.aonNewLogo {
-    	width: 165px;
-    	height: 48px;
-   	cursor: pointer;
-	margin-left: 65px;
-    	background-size: contain;
-    	background-position: center;
-    	background-repeat: no-repeat;
-    	background-image: url("../image/Infoautonomos.svg");
-}
-
-.aonLoginLogo{
-  	width: 175px;
-  	height: 50px;
-  	cursor: pointer;
-  	background-size: 170px 65px;
-  	background-position: right;
-  	background-repeat: no-repeat;
-  	background-image: url("../image/Infoautonomos.svg");
-}
-
-#aonHeaderHelp {
-	display:none;
 }
 
 #aon_new_invoice {
@@ -197,5 +169,5 @@
 Important. Keep this rule at the end of file 
 **/
 .aonTheme {
-	--aon-theme: 'INFOAUTONOMOS';
+	--aon-theme: 'VISTAPERSONALIZADA';
 }

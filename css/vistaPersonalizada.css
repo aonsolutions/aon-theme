@@ -1,5 +1,5 @@
 :root {
-	--favicon: https://fonts.google.com/icons?selected=Material+Symbols+Outlined:communities:FILL@1;wght@400;GRAD@0;opsz@24&icon.query=communit&icon.size=24&icon.color=%23002469;
+	--favicon: data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23002469'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-2.64 0-5.03-1.05-6.78-2.75l1.42-1.42C7.73 17.1 9.73 18 12 18s4.27-.9 5.36-2.17l1.42 1.42C17.03 18.95 14.64 20 12 20zm-6.36-5.94L4.22 12.5C4.08 12.17 4 11.84 4 11.5c0-3.87 3.13-7 7-7s7 3.13 7 7c0 .34-.08.67-.22.98l-1.42-1.42c.08-.19.12-.39.12-.6 0-2.48-2.02-4.5-4.5-4.5s-4.5 2.02-4.5 4.5c0 .21.04.41.12.6L5.64 14.06z'/%3E%3C/svg%3E;
 	--vistaPersonaliazadaColor: white;
 }
 

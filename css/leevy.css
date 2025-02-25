@@ -32,7 +32,7 @@
 	color: var(--gray-50);
 }
 
-#applications .material-symbols-outlined:hover {
+#applications:hover .material-symbols-outlined {
 	color: white;
 }
 

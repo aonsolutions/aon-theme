@@ -32,6 +32,10 @@
 	color: var(--gray-50);
 }
 
+#applications:hover .material-symbols-outlined {
+	color: white;
+}
+
 .aonNewLogo {
     width: 155px;
     height: 18px;

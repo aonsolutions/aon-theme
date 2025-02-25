@@ -73,12 +73,16 @@
 	content: 'Viernes de 8:00 a 14:00';
 }
 
+.aonSupportName:after {
+	content: 'Ayuda T Pymes';
+}
+
 .aonSupportTelephone:after {
 	content: '(+34) 900 100 162';	
 }
 
 .aonSupportUsersEmail:after {
-	content: 'soporte@ayudatpymes.es';	
+	content: 'soporteclientes@ayudatpymes.es';	
 }
 
 .aonSupportSalesEmail:after {

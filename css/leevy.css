@@ -28,8 +28,7 @@
 }
 
 
-.aonMenuLeftop .material-symbols-outlined,
-.aonMenuLeftopStart .material-symbols-outlined{
+#applications .material-symbols-outlined{
 	color: var(--gray-50);
 }
 

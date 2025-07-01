@@ -13,8 +13,7 @@
 	background-color: var(--alterblockColor);
 }
 
-#applications,
-#applications:hover {
+#applications {
 	background-color: var(--alterblockColor);
 }
 
@@ -24,6 +23,12 @@
 	color: #fff !important;
 }
 
+
+#applications:hover {
+	background-color: rgba(255,255,255,0.3);
+}
+
+#aonHeaderHome:hover,
 #aonHeaderCompanyList:hover,
 #aonHeaderHelp:hover, 
 #aonHeaderConfig:hover, 

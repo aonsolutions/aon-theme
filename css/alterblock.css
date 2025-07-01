@@ -17,7 +17,8 @@
 	background-color: var(--alterblockColor);
 }
 
-
+#aonHeaderApp .material-symbols-outlined,
+.aonHeaderAppSpan,
 .aonHeader #aonHeaderCompanyName,
 .aonHeader .material-icons {
 	color: #fff !important;
@@ -41,7 +42,6 @@
 .aonHeaderAppSpan{
 	color: black;
 }
-
 
 #applications .material-symbols-outlined{
 	color: #fff;

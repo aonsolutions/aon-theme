@@ -20,7 +20,7 @@
 
 .aonHeader #aonHeaderCompanyName,
 .aonHeader .material-icons {
-	color: var(--gray-50) !important;
+	color: #fff !important;
 }
 
 .aonHeaderAppSpan{
@@ -29,7 +29,7 @@
 
 
 #applications .material-symbols-outlined{
-	color: var(--gray-50);
+	color: #fff;
 }
 
 #applications:hover .material-symbols-outlined {

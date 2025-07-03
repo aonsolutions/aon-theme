@@ -89,9 +89,10 @@
 	content: 'Alterblock S.L';
 }
 
-/* #aonContactIcon2:after {
-	content: 'chat';
-} */
+#aonContactIcon2,
+.aonSupportTelephone {
+	display:none;
+}
 
 .aonSupportUsersEmail:after {
 	content: 'contabilidad@okorugroup.es';	

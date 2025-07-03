@@ -77,15 +77,15 @@
 }
 
 .aonTrademark:after {
-	content: ' Ayuda T Pymes es una marca registrada de Ayuda T Soluciones Profesionales S.L.';
+	display:none;
 }
 
 .aonWeekSchedule:after{
-	content: 'Lunes a jueves de 8:00 a 15:00';
+	display:none
 }
 
 .aonWeekFridaySchedule:after{
-	content: 'Viernes de 8:00 a 14:00';
+	display:none;
 }
 
 .aonSupportName:after {
@@ -93,7 +93,7 @@
 }
 
 .aonSupportTelephone:after {
-	content: '964 223 377';	
+	display:none;
 }
 
 .aonSupportUsersEmail:after {

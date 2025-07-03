@@ -89,7 +89,7 @@
 	content: 'Alterblock S.L';
 }
 
-#aonContactIcon2 {
+#aonContactIcon2:after {
 	content: 'chat';
 }
 

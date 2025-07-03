@@ -79,17 +79,18 @@
 .aonTrademark:after {
 	display:none;
 }
-
-.aonWeekSchedule:after{
-	display:none
-}
-
+#aonHelpScheduleContactCard,
+.aonWeekSchedule:after,
 .aonWeekFridaySchedule:after{
-	display:none;
+	display:none
 }
 
 .aonSupportName:after {
 	content: 'Alterblock S.L';
+}
+
+#aonContactIcon2:after{
+	content: 'chat';
 }
 
 .aonSupportTelephone:after {

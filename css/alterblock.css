@@ -89,7 +89,7 @@ e:root{
 	content: 'Alterblock S.L';
 }
 
-#aonContactIcon2:before {
+#aonContactIcon2:after{
 	content: 'chat';
 }
 

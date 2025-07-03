@@ -93,7 +93,7 @@
 	content: 'chat';
 }
 
-.aonSupportTelephone:after {
+#aonContactIcon2 {
 	display:none;
 }
 

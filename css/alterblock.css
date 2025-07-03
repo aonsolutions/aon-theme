@@ -1,4 +1,4 @@
-:root{
+e:root{
 	--favicon: https://okorugroup.es/wp-content/uploads/2024/10/cropped-favicon-180x180.png;
 	--alterblockColor: #000;
 }
@@ -89,7 +89,7 @@
 	content: 'Alterblock S.L';
 }
 
-#aonContactIcon2:after {
+#aonContactIcon2:before {
 	content: 'chat';
 }
 

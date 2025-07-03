@@ -89,12 +89,8 @@
 	content: 'Alterblock S.L';
 }
 
-#aonContactIcon2:after{
-	content: 'chat';
-}
-
 #aonContactIcon2 {
-	display:none;
+	content: 'chat';
 }
 
 .aonSupportUsersEmail:after {

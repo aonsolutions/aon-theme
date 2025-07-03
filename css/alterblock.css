@@ -88,11 +88,14 @@
 .aonSupportName:after {
 	content: 'Alterblock S.L';
 }
-/* 
+
 #aonContactIcon2:after {
 	content: 'chat';
-} */
+}
 
+#aonContactIcon2 {
+	font-size: 0px;
+}
 .aonSupportUsersEmail:after {
 	content: 'contabilidad@okorugroup.es';	
 }

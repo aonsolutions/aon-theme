@@ -153,6 +153,10 @@
 	color: var(--aonTopMenuAvailable);
 }
 
+.aonWelcomeLogo{
+	filter: invert(0.98);
+}
+
 /**
 Important. Keep this rule at the end of file 
 **/

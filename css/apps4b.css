@@ -4,3 +4,14 @@
 	--favicon: https://apps4b.aonsolutions.net/cvDocument/faviconCustom;
 }
 
+.aonLogo{
+	background-image: url("https://apps4b.aonsolutions.net/cvDocument/logoCustom");
+}
+
+.aonNewLogo{
+	background-image: url("https://apps4b.aonsolutions.net/cvDocument/logoCustom");
+}
+
+.aonLoginLogo{
+	background-image: url("https://apps4b.aonsolutions.net/cvDocument/loginLogoCustom");
+}

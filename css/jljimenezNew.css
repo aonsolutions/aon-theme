@@ -1,4 +1,9 @@
 :root{
+  --aonBackgroundColor: #ffffff;
   --colorNeutralBackground2: #ffffff;
+  --aonHeaderBackgroundColor: #0f172a;
 }
 
+.aonMenuTopnav {
+    background-color: var(--aonBackgroundColor);
+}
